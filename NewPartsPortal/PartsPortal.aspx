@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="PartsPortal" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="PartsPortal.aspx.cs" Inherits="PartsPortal" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
         .imagebutton {
@@ -54,19 +56,78 @@
             padding-bottom: 26.5px;
             line-height: 27px;
   }
+
+/* In the case that we switch to cards*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* In the case that we switch to cards*/
+
 }
 </style>
     <br />
     <br />
     <br />
 
-             <center>
+        <center>
          <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:220px; width:720px"/></asp:HyperLink>
          </center>
 
-    <br /><br />
+    <br />
+    <br />
     <div>
         <center>
+
             <div>
           <asp:Label ID="lblAccurideWheels"
            cssClass="imagebutton"
@@ -214,7 +275,7 @@
 
            AssociatedControlID="site13"
            runat="server">
-                <asp:HyperLink ID="site13" runat="server"  NavigateUrl="https://www.revparts.com/gensuite/web/login"><img src="PartsPortalImage/revParts.PNG" style=" width:240px; height:130px;"/></asp:HyperLink></td>
+                <asp:HyperLink ID="site13" runat="server"  NavigateUrl="https://parts.revgroup.com/gensuite/web/login?forceLogin=true"><img src="PartsPortalImage/revParts.PNG" style=" width:240px; height:130px;"/></asp:HyperLink></td>
 
           </asp:Label>
 
@@ -726,7 +787,7 @@
 
            AssociatedControlID="site56"
            runat="server">
-                <asp:HyperLink ID="site56" runat="server" NavigateUrl="https://www.meritorpartsxpress.com/webapp/wcs/stores/servlet/en/meritor-na/home"><img src="PartsPortalImage/meritorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site56" runat="server" NavigateUrl="https://www.meritorpartsxpress.com/"><img src="PartsPortalImage/meritorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                     </div>

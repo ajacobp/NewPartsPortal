@@ -1123,8 +1123,10 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   <td width=118 style='width:88.6pt;border:inset #CCCCCC 1.0pt;mso-border-alt:
   inset #CCCCCC .75pt;background:white;padding:.75pt .75pt .75pt .75pt;
   height:59.8pt'>
+      
+
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:15.0pt'><a href="http://www.revparts.com/"><span
+  style='font-size:15.0pt'><a href="https://parts.revgroup.com/gensuite/web/login?forceLogin=true"><span
   class=SpellE><b style='mso-bidi-font-weight:normal'><span style='font-family:
   "Candara",sans-serif'>REVParts</span></b></span></a> <a
   href="http://www.eaglemark4.com/"><span class=SpellE><b style='mso-bidi-font-weight:
@@ -1539,8 +1541,10 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   <td width=120 colspan=2 style='width:89.9pt;border:inset #CCCCCC 1.0pt;
   mso-border-alt:inset #CCCCCC .75pt;background:#CCCCCC;padding:.75pt .75pt .75pt .75pt;
   height:.05pt'>
+
+
   <p class=MsoNormal align=center style='text-align:center'><a
-  href="https://www.meritorpartsonline.com/webapp/wcs/stores/servlet/en/meritor-na-nasales/home"><b
+  href="https://www.meritorpartsxpress.com/"><b
   style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
   "Candara",sans-serif;color:#0F243E;mso-themecolor:text2;mso-themeshade:128'>Meritor
   Online</span></b></a><b style='mso-bidi-font-weight:normal'><span
