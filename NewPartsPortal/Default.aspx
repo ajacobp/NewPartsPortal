@@ -242,21 +242,17 @@
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/janNewsletter1.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/FebNews1.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/janNewsletter2.png" style="height:600px; width:700px; border-radius:10px;"/>
+                    <img src="Images/FebNews2.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/janNewsletter3.png" style="height:600px; width:700px; border-radius:10px;"/>
+                    <img src="Images/FebNews3.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/janNewsletter4.png" style="height:400px; width:1200px; border-radius:10px;"/>
+                    <img src="Images/FebNews4.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
-                <div class="item">
-                    <img src="Images/janNewsletter5.png" style="height:800px; width:900px; border-radius:10px;"/>
-                </div>
-
             </div>
         </div>
     </div>
