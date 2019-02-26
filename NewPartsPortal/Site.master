@@ -82,7 +82,7 @@
                         <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/ClassicParts">Classic Parts Portal</a></li>
                         <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/PartsPortal">Parts Portal</a></li>
                         <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="https://tomnehltruckcompany.formstack.com/forms/price_changes">Price Change</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/News">News</a></li>
+<%--                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/News">Board</a></li>--%>
                         <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="https://mail.tomnehl.com/owa/auth/logon.aspx?">Email</a></li>
                         <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/HelpDesk">Help Desk</a></li>
                         <li><a href="http://tntcloud.net/" style="text-decoration:none; font-size:large; font-weight:700;">Dispatch</a></li>

@@ -88,7 +88,7 @@
 <br />
     <br />
     <div>
-                <asp:Button ID="btnAddNews" runat="server" Height="37px" Text="Click to Add News!" Width="242px" Font-Bold="True" Font-Size="Large" ForeColor="Blue" OnClick="btnAddNews_Click" />
+                <asp:Button ID="btnAddNews" runat="server" Height="37px" Text="Add to Discussion Board!" Width="242px" Font-Bold="True" Font-Size="Large" ForeColor="Blue" OnClick="btnAddNews_Click" />
 
 
             <table id="newsTable" runat="server" class="table table-hover table-responsive">

@@ -199,7 +199,7 @@
             <li ><a href="ClassicParts.aspx">Classic Portal</a></li>
             <li ><a href="PartsPortal.aspx">Parts Portal</a></li>
             <li ><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes">Price Change</a></li>
-            <li ><a href="News.aspx">News</a></li>
+            <li ><a href="News.aspx">Discussion Board</a></li>
             <li ><a href="https://mail.tomnehl.com/owa/auth/logon.aspx?">Email</a></li>
             <li ><a href="HelpDesk.aspx">Help Desk</a></li>
             <li ><a href="http://tntcloud.net/">Dispatch</a></li>
