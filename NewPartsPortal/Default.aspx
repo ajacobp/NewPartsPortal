@@ -80,12 +80,12 @@
         font-size:medium; 
         font-weight:600;
         color: #ffffff;
+        
 
 
     }
-
      .nav-pills > li > a:hover {
-            background-color: #d0dcef !important;
+            background-color: #ff0000 !important;
             color:black;
         }
 
@@ -166,15 +166,26 @@
 	    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
 }
 
+.RightArrow
+{
+  /*width: 200px;
+  height: 200px;
+  background-image:url('Images/chucksCorner.png');*/
+}
+.RightArrow:hover
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-image: url('Images/chucksCornerPic.jpg');
+}
+
 </style>
 
     <!-- The video -->
        <video autoplay muted loop id="myVideo">
             <source src="Video/jaxCityTNVideo_Large.mp4" type="video/mp4">
         </video>
-<%--      <button id="myBtn" onclick="myFunction()">Pause</button>--%>
-
-<%--    <script type="text/javascript" src="…"></script>--%>
 
     <br />
     <br />
@@ -191,20 +202,18 @@
     <div class="col-sm-2 sidenav">
 
         <ul class="nav nav-pills nav-stacked">
-            <li ><a href="https://login-dtna.prd.freightliner.com/siteminderagent/forms/FTLloginPWC.fcc?">DTNA Login</a></li>
             <li ><a href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do">Pinnacle Login</a></li>
-            <li ><a href="https://www.nexpart.com/login.php?">Nexpart Login</a></li>
+            <li ><a href="https://login-dtna.prd.freightliner.com/siteminderagent/forms/FTLloginPWC.fcc?">DTNA Login</a></li>
             <li ><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login">Volvo Login</a></li>
-
-            <li ><a href="ClassicParts.aspx">Classic Portal</a></li>
-            <li ><a href="PartsPortal.aspx">Parts Portal</a></li>
+            <li ><a href="https://www.nexpart.com/login.php?">Nexpart Login</a></li>
+            <li ><a href="FreightPolicy.aspx">Freight Policy</a></li>
             <li ><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes">Price Change</a></li>
-            <li ><a href="News.aspx">Discussion Board</a></li>
+            <li ><a href="CoreInspections.aspx">Core Inspection Guide</a></li>
+            <li ><a href="QuoteParts.aspx">Creating Quote/Parts Order</a></li>
+            <li ><a href="AnsweringPhones.aspx">Answering Phone Process</a></li>
             <li ><a href="https://mail.tomnehl.com/owa/auth/logon.aspx?">Email</a></li>
-            <li ><a href="HelpDesk.aspx">Help Desk</a></li>
             <li ><a href="http://tntcloud.net/">Dispatch</a></li>
-            <li ><a href="Directory.aspx">Directory</a></li>
-
+            <li ><a href="News.aspx">Discussion Board</a></li>
         </ul>
     </div>
 
@@ -236,8 +245,8 @@
         GetClock();
                 setInterval(GetClock, 1000);
             </script>
-        </br>
-        </br>
+        <br/>
+        <br/>
 
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
@@ -260,12 +269,22 @@
 
     <div class="col-sm-2 sidenav1">
         <center>
+
+      <div class="RightArrow">
+          <a href="/ChucksCorner.aspx">
+                    <asp:image id="img" style="width:200px;height:200px"  runat="server" imageurl="Images/chucksCorner.png" />
+          </a>
+      </div>
+
+        <br/>
+
+
             <div class="container-fluid text-center" style="opacity:0.8">
             <div id="cont_e01c77a62c15a1f00f6627139c132ff8" >
                 <script type="text/javascript" async src="https://www.theweather.com/wid_loader/e01c77a62c15a1f00f6627139c132ff8"></script>
             </div>
             </div>
-        </br>
+        <br/>
 
       <div>
           <img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/>

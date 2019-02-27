@@ -61,23 +61,19 @@
     <center>
         <div class="container">
 
-        <div id="carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <div id="carousel" class="carousel slide-fade" data-interval="3000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
                     
-                    <img src="Images/tomNews1.jpg" width="800" height="445" />
+                    <img src="Images/tomNehlDiscussionBoard1.jpg" width="800" height="445" style="border-radius:25px"/>
                 </div>
                 <div class="item">
 
-                    <img src="Images/tomNews2.jpg" width="800" height="445" />
+                    <img src="Images/tomNehlDiscussionBoard2.jpg" width="800" height="445" style="border-radius:25px"/>
                 </div>
                 <div class="item">
 
-                    <img src="Images/tomNews3.jpg" width="800" height="445" />
-                </div>
-                <div class="item">
-
-                    <img src="Images/tomNews4.jpg" width="800" height="445" />
+                    <img src="Images/tomNehlDiscussionBoard3.jpg" width="800" height="445" style="border-radius:25px"/>
                 </div>
 
             </div>
@@ -95,7 +91,7 @@
             <thread>
         <tr>
             <td>
-        <asp:Label ID="lblPoster" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Who is Posting News" ></asp:Label>
+        <asp:Label ID="lblPoster" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Who is Posting" ></asp:Label>
                                     </td><td>
         <asp:TextBox ID="txtPoster" runat="server" Width="200px" MaxLength="50" ></asp:TextBox>
         </td>
@@ -110,7 +106,7 @@
             </tr>
         <tr>
             <td>
-        <asp:Label ID="lblNewTitle" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="News Title" ></asp:Label>
+        <asp:Label ID="lblNewTitle" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Title" ></asp:Label>
                                     </td><td>
 
         <asp:TextBox ID="txtNewTitle" runat="server" Width="432px" MaxLength="100" ></asp:TextBox>
@@ -119,7 +115,7 @@
 
         <tr>
             <td>
-        <asp:Label ID="lblNews" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="News" ></asp:Label>
+        <asp:Label ID="lblNews" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Discussion" ></asp:Label>
                                     </td><td>
 
         <asp:TextBox ID="txtNews" runat="server" Width="798px" MaxLength="2000" Height="202px" TextMode="MultiLine" ></asp:TextBox>
