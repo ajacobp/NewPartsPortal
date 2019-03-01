@@ -251,16 +251,16 @@
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/FebNews1.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/marchNewsletter1.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/FebNews2.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/marchNewsletter2.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/FebNews3.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/marchNewsletter3.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/FebNews4.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/marchNewsletter4.png" style="height:800px; width:900px; border-radius:10px;"/>
                 </div>
             </div>
         </div>

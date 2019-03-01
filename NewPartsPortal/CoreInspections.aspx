@@ -66,7 +66,7 @@
           <p class="lead"><strong></strong></p>
 
     </div>
-
+<strong>
 <p><h2>Contents</h2></p>
 <p><a href="#_Toc525635797">Bendix</a></p>
 <p><a href="#_Toc525635798">All Compressors</a></p>
@@ -148,6 +148,7 @@
 <p><a href="#_Toc525635874">Turbo Chargers</a></p>
 <p><a href="#_Toc525635875">Water Pumps/Coolant Pump/Bearing Housing</a></p>
 <p><a href="#_Toc525635876">ZF Industries</a></p>
+</strong>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
