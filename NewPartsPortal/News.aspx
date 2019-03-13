@@ -115,7 +115,7 @@
 
         <tr>
             <td>
-        <asp:Label ID="lblNews" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Discussion" ></asp:Label>
+        <asp:Label ID="lblNews" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Subject" ></asp:Label>
                                     </td><td>
 
         <asp:TextBox ID="txtNews" runat="server" Width="798px" MaxLength="2000" Height="202px" TextMode="MultiLine" ></asp:TextBox>
@@ -160,8 +160,8 @@
 
                     <asp:BoundField DataField="Poster" HeaderText="Posted By" ItemStyle-Width="60px"/>
                     <asp:BoundField DataField="Contact" HeaderText="Posters Contact" ItemStyle-Width="100px"/>
-                    <asp:BoundField DataField="Title" HeaderText="News Title" ItemStyle-Width="150px" />
-                    <asp:BoundField DataField="News" HeaderText="News" ItemStyle-Width="400px"/>
+                    <asp:BoundField DataField="Title" HeaderText="Title" ItemStyle-Width="150px" />
+                    <asp:BoundField DataField="News" HeaderText="Subject" ItemStyle-Width="400px"/>
                     <asp:BoundField DataField="Date" HeaderText="Date" ItemStyle-Width="20px" />
 
                     </Columns>

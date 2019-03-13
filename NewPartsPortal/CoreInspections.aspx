@@ -21,11 +21,12 @@
     }
 
     .navbar {
-         min-height: 80px;
-
+         min-height: 50px;
+            
         	left: 2px;
 	        width: calc(100% - 4px);
 	        background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+            position:relative;
 }
 
     .navbar-brand {
@@ -35,18 +36,38 @@
 }
 
     .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
         margin-top: 23px;
         padding: 9px 10px !important;
 }
 
     @media (min-width: 768px) {
     .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
         padding-top: 26.5px;
         padding-bottom: 26.5px;
         line-height: 27px;
   }
+    /*Scroll to top of Page button*/
+
+    #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: red; /* Add a dark-grey background on hover */
+}
+
 }
 </style>
         <br />
@@ -59,6 +80,8 @@
          </center>
 
     <br />
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
 
     <div class="jumbotron">
   <h1 class="display-4">Core Inspection Guidelines</h1>
@@ -1194,5 +1217,23 @@
             </footer>
       </div>
 
-</asp:Content>
+<script>
+    // When the user scrolls down 100px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+</asp:Content>

@@ -213,7 +213,7 @@
             <li ><a href="AnsweringPhones.aspx">Answering Phone Process</a></li>
             <li ><a href="https://mail.tomnehl.com/owa/auth/logon.aspx?">Email</a></li>
             <li ><a href="http://tntcloud.net/">Dispatch</a></li>
-            <li ><a href="News.aspx">Discussion Board</a></li>
+<%--            <li ><a href="News.aspx">Discussion Board</a></li>--%>
         </ul>
     </div>
 
