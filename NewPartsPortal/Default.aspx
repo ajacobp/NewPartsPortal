@@ -166,6 +166,7 @@
 	    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
 }
 
+
 .RightArrow
 {
   /*width: 200px;
@@ -251,16 +252,16 @@
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/marchNewsletter1.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/April1.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/marchNewsletter2.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/April2.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/marchNewsletter3.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/April3.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/marchNewsletter4.png" style="height:800px; width:900px; border-radius:10px;"/>
+                    <img src="Images/April4.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
@@ -287,10 +288,10 @@
         <br/>
 
       <div>
-          <img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/>
+          <asp:HyperLink ID="Elite" runat="server" NavigateUrl="https://freightliner.com/service/elite-support/"><img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
        <div>
-            <img src="Images/logo-express-assess_1.png" style="width:200px;height:150px"/>
+            <asp:HyperLink ID="Express" runat="server" NavigateUrl="https://freightliner.com/service/express-assessment/"><img src="Images/logo-express-assess_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
 
        </center>

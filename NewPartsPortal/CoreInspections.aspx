@@ -165,7 +165,7 @@
 <p><a href="#_Toc525635868">Radiators</a></p>
 <p><a href="#_Toc525635869">Radios</a></p>
 <p><a href="#_Toc525635870">Range Housing Kit</a></p>
-<p><a href="#_Toc525635871">Short Block:</a></p>
+<p><a href="#_Toc525635871">Short Block</a></p>
 <p><a href="#_Toc525635872">Steering Gears</a></p>
 <p><a href="#_Toc525635873">Transmissions</a></p>
 <p><a href="#_Toc525635874">Turbo Chargers</a></p>
