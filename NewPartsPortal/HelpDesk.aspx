@@ -46,9 +46,10 @@
         <br />
 
 
-         <center>
-         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:220px; width:720px"/></asp:HyperLink>
+             <center>
+         <asp:HyperLink ID="helion" runat="server" NavigateUrl="https://heliontechnologies.com/" Target="_blank"><img src="Images/Helion_RGB_Logo.png" style="height:220px; width:720px"/></asp:HyperLink>
          </center>
+
 
     <br />
 
@@ -58,17 +59,21 @@
   <hr class="my-4">
   <p><strong>If you need us to connect to your PC to fix the problem select this option.</strong></p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="https://get.teamviewer.com/3s22t5k" role="button">Team Viewer</a>
+    <a class="btn btn-primary btn-lg" href="https://heliontechnologies.itclientportal.com/ClientPortal/Login.aspx" target="_blank" role="button">Client Portal</a>
   </p>
         
   <hr class="my-4">
-  <p><strong>If you would like to submit a help desk ticket please select this option.</strong> </p>
+  <p><strong>If you would like to submit a help desk request please select this option.</strong> </p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="mailto:helpdesk@tomnehl.com" role="button">Help Desk Ticket</a>
+    <a class="btn btn-primary btn-lg" href="mailto:support@heliontechnologies.com" role="button">Help Desk Ticket</a>
   </p>
 <p><strong>
-    Or email your request to helpdesk@tomnehl.com
+    Or email your non-urgent request to support@heliontechnologies.com.com
 </strong></p>
+        <p><strong>
+    For all urgent requests please call : 877-219-8830
+</strong></p>
+
 </div>
         <br />
         <br />

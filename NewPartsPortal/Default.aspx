@@ -203,17 +203,17 @@
     <div class="col-sm-2 sidenav">
 
         <ul class="nav nav-pills nav-stacked">
-            <li ><a href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do">Pinnacle Login</a></li>
-            <li ><a href="https://login-dtna.prd.freightliner.com/siteminderagent/forms/FTLloginPWC.fcc?">DTNA Login</a></li>
-            <li ><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login">Volvo Login</a></li>
-            <li ><a href="https://www.nexpart.com/login.php?">Nexpart Login</a></li>
+            <li ><a href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do" target="_blank">Pinnacle Login</a></li>
+            <li ><a href="https://dtnaconnect.com" target="_blank">DTNA Login</a></li>
+            <li ><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login"target="_blank">Volvo Login</a></li>
+            <li ><a href="https://www.nexpart.com/login.php?" target="_blank">Nexpart Login</a></li>
             <li ><a href="FreightPolicy.aspx">Freight Policy</a></li>
-            <li ><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes">Price Change</a></li>
+            <li ><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes" target="_blank">Price Change</a></li>
             <li ><a href="CoreInspections.aspx">Core Inspection Guide</a></li>
             <li ><a href="QuoteParts.aspx">Creating Quote/Parts Order</a></li>
             <li ><a href="AnsweringPhones.aspx">Answering Phone Process</a></li>
-            <li ><a href="https://mail.tomnehl.com/owa/auth/logon.aspx?">Email</a></li>
-            <li ><a href="http://tntcloud.net/">Dispatch</a></li>
+            <li ><a href="https://outlook.office.com" target="_blank">Email</a></li>
+            <li ><a href="http://tntcloud.net/" target="_blank">Dispatch</a></li>
 <%--            <li ><a href="News.aspx">Discussion Board</a></li>--%>
         </ul>
     </div>
