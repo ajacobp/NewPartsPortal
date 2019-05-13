@@ -8,7 +8,7 @@
         color: white;
         padding: 15px;
         border-radius:5px;
-        opacity:0.9;
+        opacity:0.8;
 
     }
 
