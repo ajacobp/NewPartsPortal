@@ -11,6 +11,16 @@
 
 
 <style>
+
+        footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+        border-radius:5px;
+        opacity:0.9;
+
+    }
+
      .navbar {
         min-height: 80px;
             
@@ -57,13 +67,6 @@
     }
     
     /* Set black background color, white text and some padding */
-    footer {
-        background-color: #555;
-        color: white;
-        padding: 15px;
-        border-radius:5px;
-        opacity:0.7;
-    }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
@@ -181,6 +184,43 @@
   background-image: url('Images/chucksCornerPic.jpg');
 }
 
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;  
+  width: 90px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+img1 {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img1:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 </style>
 
     <!-- The video -->
@@ -265,7 +305,36 @@
                 </div>
             </div>
         </div>
+
+<div class="center">
+    <div class="img1">
+    <div class ="gallery">
+        <a target="_blank" href="Images/April4.png">
+        <img src="Images/April4.png" alt="Page 4" width="800" height="600">
+        </a>
     </div>
+
+    <div class ="gallery">
+        <a target="_blank" href="Images/April3.png">
+        <img src="Images/April3.png" width="800" height="600" alt="Page 3">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/April2.png">
+        <img src="Images/April2.png" alt="Page 2" width="800" height="600">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/April1.png">
+        <img src="Images/April1.png" alt="Page 1" width="800" height="600">
+        </a>
+    </div>
+  </div>
+
+    </div>
+
+    </div>
+
      </center>
 
     <div class="col-sm-2 sidenav1">
@@ -279,7 +348,7 @@
 
         <br/>
 
-
+            
             <div class="container-fluid text-center" style="opacity:0.8">
             <div id="cont_e01c77a62c15a1f00f6627139c132ff8" >
                 <script type="text/javascript" async src="https://www.theweather.com/wid_loader/e01c77a62c15a1f00f6627139c132ff8"></script>
@@ -300,11 +369,12 @@
     </div>
   </div>
 
-    </br></br></br></br></br></br>
-<%--    </br></br></br></br></br></br>--%>
-   
+    </br></br></br>
 
-        <div>
+    </br></br></br>
+
+   
+      <div>
             <footer class="container-fluid text-right">
                 <p><a runat="server" href="https://www.tomnehl.com"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
                 <p>TROUBLE WITH THIS SITE? 
@@ -313,7 +383,7 @@
 
             </footer>
       </div>
-
+   
 <script>
 // Get the video
 var video = document.getElementById("myVideo");

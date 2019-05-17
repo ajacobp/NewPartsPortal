@@ -39,6 +39,45 @@
         padding-bottom: 26.5px;
         line-height: 27px;
   }
+
+    .center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;  
+  width: 90px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+img1 {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img1:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 }
 </style>
         <br />
@@ -61,8 +100,58 @@
     </div>
         <br />
         <br />
+    <center>
+            <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/pMayNews1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/pMayNews2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/pMayNews3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/pMayNews4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+            </div>
+        </div>
 
-       <div>
+<div class="center">
+    <div class="img1">
+    <div class ="gallery">
+        <a target="_blank" href="Images/pMayNews4.PNG">
+        <img src="Images/pMayNews4.png" alt="Page 4" width="800" height="600">
+        </a>
+    </div>
+
+    <div class ="gallery">
+        <a target="_blank" href="Images/pMayNews3.PNG">
+        <img src="Images/pMayNews3.PNG" width="800" height="600" alt="Page 3">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/pMayNews2.PNG">
+        <img src="Images/pMayNews2.PNG" alt="Page 2" width="800" height="600">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/pMayNews1.PNG">
+        <img src="Images/pMayNews1.PNG" alt="Page 1" width="800" height="600">
+        </a>
+    </div>
+  </div>
+    </div>
+        </center>
+<br>
+    <br /><br>
+    <br /><br>
+    <br /><br>
+    <br /><br>
+    <br /><br>
+    <br /><br>
+    <br />
             <footer class="container-fluid text-right">
                 <p><a runat="server" href="https://www.tomnehl.com"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
                 <p>TROUBLE WITH THIS SITE? 
@@ -70,7 +159,6 @@
                 </p>
 
             </footer>
-      </div>
 
 </asp:Content>
 
