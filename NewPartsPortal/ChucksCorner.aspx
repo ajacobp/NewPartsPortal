@@ -48,7 +48,7 @@
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: right;  
+  float: left;  
   width: 90px;
 }
 
@@ -91,67 +91,125 @@ img1:hover {
 
     <br />
 
-    <div class="jumbotron">
-  <h1 class="display-4">Chuck's Corner</h1>
-  <p class="lead"><strong>Info Coming Soon</strong></p>
-          <p class="lead"><strong></strong></p>
-
-
-    </div>
+        <center>
+        <img src="Images/ChucksCorner%20(1).png" style="height:250px; width:1000px"/>
+        </center>
         <br />
         <br />
     <center>
+        <h1 style="font-weight:bolder">May Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/pMayNews1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/pNewsMay1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/pMayNews2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/pNewsMay2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/pMayNews3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/pNewsMay3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/pMayNews4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/pNewsMay4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
-
+<br />
+<hr />
 <div class="center">
+    <p class="lead" style="float:left;padding-top:35px; padding-right:20px" ><strong>Click to View</strong></p>
     <div class="img1">
     <div class ="gallery">
-        <a target="_blank" href="Images/pMayNews4.PNG">
-        <img src="Images/pMayNews4.png" alt="Page 4" width="800" height="600">
+        <a target="_blank" href="Images/pNewsMay1.PNG">
+        <img src="Images/pNewsMay1.png" alt="Page 1" width="800" height="600">
         </a>
     </div>
 
     <div class ="gallery">
-        <a target="_blank" href="Images/pMayNews3.PNG">
-        <img src="Images/pMayNews3.PNG" width="800" height="600" alt="Page 3">
+        <a target="_blank" href="Images/pNewsMay2.PNG">
+        <img src="Images/pNewsMay2.PNG" width="800" height="600" alt="Page 2">
         </a>
     </div>
     <div class ="gallery">
-        <a target="_blank" href="Images/pMayNews2.PNG">
-        <img src="Images/pMayNews2.PNG" alt="Page 2" width="800" height="600">
+        <a target="_blank" href="Images/pNewsMay3.PNG">
+        <img src="Images/pNewsMay3.PNG" alt="Page 3" width="800" height="600">
         </a>
     </div>
     <div class ="gallery">
-        <a target="_blank" href="Images/pMayNews1.PNG">
-        <img src="Images/pMayNews1.PNG" alt="Page 1" width="800" height="600">
+        <a target="_blank" href="Images/pNewsMay4.PNG">
+        <img src="Images/pNewsMay4.PNG" alt="Page 4" width="800" height="600">
         </a>
     </div>
   </div>
-    </div>
-        </center>
+</div>
+
 <br>
-    <br /><br>
-    <br /><br>
-    <br /><br>
-    <br /><br>
-    <br /><br>
-    <br /><br>
-    <br />
+<br /><br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br />
+
+
+        <h1 style="font-weight:bolder">May Parts Newsletter Extra Info</h1>
+        <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/insert1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/insert2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/insert3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/insert4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+            </div>
+        </div>
+<br />
+<hr />
+<div class="center">
+    <p class="lead" style="float:left;padding-top:35px; padding-right:20px" ><strong>Click to View</strong></p>
+    <div class="img1">
+    <div class ="gallery">
+        <a target="_blank" href="Images/insert1.PNG">
+        <img src="Images/insert1.png" alt="Page 1" width="800" height="600">
+        </a>
+    </div>
+
+    <div class ="gallery">
+        <a target="_blank" href="Images/insert2.PNG">
+        <img src="Images/insert2.PNG" width="800" height="600" alt="Page 2">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/insert3.PNG">
+        <img src="Images/insert3.PNG" alt="Page 3" width="800" height="600">
+        </a>
+    </div>
+    <div class ="gallery">
+        <a target="_blank" href="Images/insert4.PNG">
+        <img src="Images/insert4.PNG" alt="Page 4" width="800" height="600">
+        </a>
+    </div>
+  </div>
+</div>
+
+
+</center>
+
+
+<br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br /><br>
+<br />
             <footer class="container-fluid text-right">
                 <p><a runat="server" href="https://www.tomnehl.com"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
                 <p>TROUBLE WITH THIS SITE? 

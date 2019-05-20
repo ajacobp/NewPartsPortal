@@ -98,7 +98,7 @@
 <br />
 <br />
 <br />
-                <img src="Images/edInfo.jpg" style="height:150px; width:1000px"/>
+                <img src="Images/edInfo.jpg" style="height:250px; width:1000px"/>
 <br />
 <br />
 <br />
