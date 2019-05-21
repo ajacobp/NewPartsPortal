@@ -135,7 +135,7 @@ button:hover, a:hover {
               style="background-color:cornflowerblue"
            AssociatedControlID="site1"
            runat="server">
-                <asp:HyperLink ID="site1" runat="server" NavigateUrl="http://www.accuridewheels.com/products/"><img src="PartsPortalImage/accurideWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site1" runat="server" NavigateUrl="http://www.accuridewheels.com/products/" target="_blank"><img src="PartsPortalImage/accurideWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
             </div>
 
@@ -146,7 +146,7 @@ button:hover, a:hover {
               style="background-color:lightblue"
            AssociatedControlID="site2"
            runat="server">
-                <asp:HyperLink ID="site2" runat="server" NavigateUrl="http://www.alcoa.com/global/en/what-we-do/bauxite/default.asp"><img src="PartsPortalImage/alcoaWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site2" runat="server" NavigateUrl="http://www.alcoa.com/global/en/what-we-do/bauxite/default.asp" target="_blank"><img src="PartsPortalImage/alcoaWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
            </div>
 
@@ -157,7 +157,7 @@ button:hover, a:hover {
               style="background-color:cornflowerblue"
            AssociatedControlID="site3"
            runat="server">
-                <asp:HyperLink ID="site3" runat="server" NavigateUrl="https://firestoneip.com/"><img src="PartsPortalImage/firestoneAirbags.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site3" runat="server" NavigateUrl="https://firestoneip.com/" target="_blank"><img src="PartsPortalImage/firestoneAirbags.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
           </div>
 
@@ -168,7 +168,7 @@ button:hover, a:hover {
            style="background-color:lightblue"
            AssociatedControlID="site4"
            runat="server">
-                <asp:HyperLink ID="site4" runat="server" NavigateUrl="https://www.contitech.de/catalogs/asrepcatalogam/ProductDetail.aspx?id=1000518"><img src="PartsPortalImage/continentalAirbags.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site4" runat="server" NavigateUrl="https://www.contitech.de/catalogs/asrepcatalogam/ProductDetail.aspx?id=1000518" target="_blank"><img src="PartsPortalImage/continentalAirbags.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
            </asp:Label>
            </div>
 
@@ -179,7 +179,7 @@ button:hover, a:hover {
            style="background-color:lightblue"
            AssociatedControlID="site5"
            runat="server">
-                <asp:HyperLink ID="site5" runat="server" NavigateUrl="https://alliancetruckparts.com/"><img src="PartsPortalImage/allianceParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site5" runat="server" NavigateUrl="https://alliancetruckparts.com/" target="_blank"><img src="PartsPortalImage/allianceParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
                 </div>
 
@@ -191,7 +191,7 @@ button:hover, a:hover {
            AssociatedControlID="site6"
            
            runat="server">
-                <asp:HyperLink ID="site6" runat="server" NavigateUrl="https://sap.allisontransmission.com/extranet/login.jsp?URLToLoad=https%3A%2F%2Fsap.allisontransmission.com%2Fextranet%2Fsitemap.jsp"><img src="PartsPortalImage/allisonTransmission.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site6" runat="server" NavigateUrl="https://sap.allisontransmission.com/extranet/login.jsp?URLToLoad=https%3A%2F%2Fsap.allisontransmission.com%2Fextranet%2Fsitemap.jsp" target="_blank"><img src="PartsPortalImage/allisonTransmission.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                 </div>
@@ -203,7 +203,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site7"
            runat="server">
-                <asp:HyperLink ID="site7" runat="server" NavigateUrl="https://www.autocartruck.com/"><img src="PartsPortalImage/autoCar.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site7" runat="server" NavigateUrl="https://www.autocartruck.com/" target="_blank"><img src="PartsPortalImage/autoCar.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                     </div>
@@ -215,7 +215,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site8"
            runat="server">
-                <asp:HyperLink ID="site8" runat="server" NavigateUrl="http://www.babsteering.com/"><img src="PartsPortalImage/babHydralics.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site8" runat="server" NavigateUrl="http://www.babsteering.com/" target="_blank"><img src="PartsPortalImage/babHydralics.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                         </div>
@@ -227,7 +227,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site9"
            runat="server">
-                <asp:HyperLink ID="site9" runat="server" NavigateUrl="https://belmor.com/?SID=4tctq5o761ak2ivdc1r20l7qbu"><img src="PartsPortalImage/belmorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site9" runat="server" NavigateUrl="https://belmor.com/?SID=4tctq5o761ak2ivdc1r20l7qbu" target="_blank"><img src="PartsPortalImage/belmorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                             </div>
@@ -239,7 +239,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site10"
            runat="server">
-                <asp:HyperLink ID="site10" runat="server"  NavigateUrl="http://www.bendix.com/en/"><img src="PartsPortalImage/bendixParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site10" runat="server"  NavigateUrl="http://www.bendix.com/en/" target="_blank"><img src="PartsPortalImage/bendixParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
            </asp:Label>
 
                                 </div>
@@ -251,7 +251,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site11"
            runat="server">
-                <asp:HyperLink ID="site11" runat="server"  NavigateUrl="https://www.bostromseating.com/en-us/products"><img src="PartsPortalImage/bostromSeating.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site11" runat="server"  NavigateUrl="https://www.bostromseating.com/en-us/products" target="_blank"><img src="PartsPortalImage/bostromSeating.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                     </div>
@@ -263,7 +263,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site12"
            runat="server">
-                <asp:HyperLink ID="site12" runat="server"  NavigateUrl="http://www.valleychrome.com/"><img src="PartsPortalImage/valleyParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site12" runat="server"  NavigateUrl="http://www.valleychrome.com/" target="_blank"><img src="PartsPortalImage/valleyParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                         </div>
@@ -275,7 +275,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site13"
            runat="server">
-                <asp:HyperLink ID="site13" runat="server"  NavigateUrl="https://parts.revgroup.com/gensuite/web/login?forceLogin=true"><img src="PartsPortalImage/revParts.PNG" style=" width:240px; height:130px;"/></asp:HyperLink></td>
+                <asp:HyperLink ID="site13" runat="server"  NavigateUrl="https://parts.revgroup.com/gensuite/web/login?forceLogin=true" target="_blank"><img src="PartsPortalImage/revParts.PNG" style=" width:240px; height:130px;"/></asp:HyperLink></td>
 
           </asp:Label>
 
@@ -288,7 +288,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site14"
            runat="server">
-                <asp:HyperLink ID="site14" runat="server"  NavigateUrl="https://eaglemark4.com/"><img src="PartsPortalImage/eagleMark.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site14" runat="server"  NavigateUrl="https://eaglemark4.com/" target="_blank"><img src="PartsPortalImage/eagleMark.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                 </div>
@@ -300,7 +300,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site15"
            runat="server">
-                <asp:HyperLink ID="site15" runat="server"  NavigateUrl="https://ringpower.cat.com/DSFUnbundled/instantAccess.do%20"><img src="PartsPortalImage/ringpowerCat.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site15" runat="server"  NavigateUrl="https://ringpower.cat.com/DSFUnbundled/instantAccess.do%20" target="_blank"><img src="PartsPortalImage/ringpowerCat.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                     </div>
@@ -312,7 +312,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site16"
            runat="server">
-                <asp:HyperLink ID="site16" runat="server"  NavigateUrl="http://www.skf.com/us/products/index.html"><img src="PartsPortalImage/chicagoRawhide.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site16" runat="server"  NavigateUrl="http://www.skf.com/us/products/index.html" target="_blank"><img src="PartsPortalImage/chicagoRawhide.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
                                                         
                                                         </div>
@@ -324,7 +324,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site17"
            runat="server">
-                <asp:HyperLink ID="site17" runat="server"  NavigateUrl="http://www.coolstarconnect.com/"><img src="PartsPortalImage/coolStar.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site17" runat="server"  NavigateUrl="http://www.coolstarconnect.com/" target="_blank"><img src="PartsPortalImage/coolStar.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                             </div>
@@ -336,7 +336,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site18"
            runat="server">
-                <asp:HyperLink ID="site18" runat="server"  NavigateUrl="https://qsol2.cummins.com/info/index.html"><img src="PartsPortalImage/cummingsParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site18" runat="server"  NavigateUrl="https://qsol2.cummins.com/info/index.html" target="_blank"><img src="PartsPortalImage/cummingsParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                 </div>
@@ -348,7 +348,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site19"
            runat="server">
-                <asp:HyperLink ID="site19" runat="server"  NavigateUrl="http://www.daycoproducts.com/online-catalog"><img src="PartsPortalImage/daycoAftermarket.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site19" runat="server"  NavigateUrl="http://www.daycoproducts.com/online-catalog" target="_blank"><img src="PartsPortalImage/daycoAftermarket.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                     </div>
@@ -360,7 +360,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site20"
            runat="server">
-                <asp:HyperLink ID="site20" runat="server"  NavigateUrl="http://www.delcoremy.com/"><img src="PartsPortalImage/delcoRemy.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site20" runat="server"  NavigateUrl="http://www.delcoremy.com/" target="_blank"><img src="PartsPortalImage/delcoRemy.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                         </div>
@@ -372,7 +372,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site21"
            runat="server">
-                <asp:HyperLink ID="site21" runat="server"  NavigateUrl="http://densoheavyduty.com/"><img src="PartsPortalImage/densoParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site21" runat="server"  NavigateUrl="http://densoheavyduty.com/" target="_blank"><img src="PartsPortalImage/densoParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                             </div>
@@ -385,7 +385,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site22"
            runat="server">
-                <asp:HyperLink ID="site22" runat="server"  NavigateUrl="https://www.diamond-gard.com/oe-products"><img src="PartsPortalImage/mitsubishiElectric.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site22" runat="server"  NavigateUrl="https://www.diamond-gard.com/oe-products" target="_blank"><img src="PartsPortalImage/mitsubishiElectric.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                 </div>
@@ -397,7 +397,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site23"
            runat="server">
-                <asp:HyperLink ID="site23" runat="server"  NavigateUrl="http://www.ddcsn.com/cps/rde/xchg/ddcsn"><img src="PartsPortalImage/ddcsnParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site23" runat="server"  NavigateUrl="http://www.ddcsn.com/cps/rde/xchg/ddcsn" target="_blank"><img src="PartsPortalImage/ddcsnParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                     </div>
@@ -409,7 +409,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site24"
            runat="server">
-                <asp:HyperLink ID="site24" runat="server"  NavigateUrl="https://shop.donaldson.com/store/en-us/home?_requestid=11395364"><img src="PartsPortalImage/donaldsonFilter.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site24" runat="server"  NavigateUrl="https://shop.donaldson.com/store/en-us/home?_requestid=11395364" target="_blank"><img src="PartsPortalImage/donaldsonFilter.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                         </div>
@@ -421,7 +421,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site25"
            runat="server">
-                <asp:HyperLink ID="site25" runat="server"  NavigateUrl="https://www.arb.ca.gov/msprog/truckstop/video/dpfvideo/dpfmovie.htm"><img src="PartsPortalImage/dpfThetruckstop.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site25" runat="server"  NavigateUrl="https://www.arb.ca.gov/msprog/truckstop/video/dpfvideo/dpfmovie.htm" target="_blank"><img src="PartsPortalImage/dpfThetruckstop.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                             </div>
@@ -433,7 +433,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site26"
            runat="server">
-                <asp:HyperLink ID="site26" runat="server"  NavigateUrl="http://media.spicerparts.com/media"><img src="PartsPortalImage/spicerDanaDriveline.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site26" runat="server"  NavigateUrl="http://media.spicerparts.com/media" target="_blank"><img src="PartsPortalImage/spicerDanaDriveline.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                 </div>
@@ -448,7 +448,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site27"
            runat="server">
-                <asp:HyperLink ID="site27" runat="server"  NavigateUrl="http://www.duralite.net/english.html"><img src="PartsPortalImage/duraLite.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site27" runat="server"  NavigateUrl="http://www.duralite.net/english.html" target="_blank"><img src="PartsPortalImage/duraLite.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                     </div>
@@ -460,7 +460,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site28"
            runat="server">
-                <asp:HyperLink ID="site28" runat="server" NavigateUrl="https://cld.bz/kJeSzhe"><img src="PartsPortalImage/exGuard.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site28" runat="server" NavigateUrl="https://cld.bz/kJeSzhe" target="_blank"><img src="PartsPortalImage/exGuard.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                         </div>
@@ -472,7 +472,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site30"
            runat="server">
-                <asp:HyperLink ID="site30" runat="server" NavigateUrl="http://www.inforanger.roadranger.com/index.aspx"><img src="PartsPortalImage/eatonRoadranger.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site30" runat="server" NavigateUrl="http://www.inforanger.roadranger.com/index.aspx" target="_blank"><img src="PartsPortalImage/eatonRoadranger.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                             </div>
@@ -484,7 +484,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site31"
            runat="server">
-                <asp:HyperLink ID="site31" runat="server"  NavigateUrl="http://www.fifthwheel.com/"><img src="PartsPortalImage/fithWheel.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site31" runat="server"  NavigateUrl="http://www.fifthwheel.com/" target="_blank"><img src="PartsPortalImage/fithWheel.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                 </div>
@@ -496,7 +496,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site32"
            runat="server">
-                <asp:HyperLink ID="site32" runat="server"  NavigateUrl="http://www.fleetengineers.com/wp-content/uploads/2015/06/2015_FleetEngineers_ProductCatalogLR.pdf"><img src="PartsPortalImage/fleetEngineers.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site32" runat="server"  NavigateUrl="http://www.fleetengineers.com/wp-content/uploads/2015/06/2015_FleetEngineers_ProductCatalogLR.pdf" target="_blank"><img src="PartsPortalImage/fleetEngineers.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                     </div>
@@ -508,7 +508,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site33"
            runat="server">
-                <asp:HyperLink ID="site33" runat="server" NavigateUrl="http://v4.fleetcross.net/installation_instructions/install1.aspx"><img src="PartsPortalImage/fleetCross.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site33" runat="server" NavigateUrl="http://v4.fleetcross.net/installation_instructions/install1.aspx" target="_blank"><img src="PartsPortalImage/fleetCross.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
 
@@ -522,7 +522,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site34"
            runat="server">
-                <asp:HyperLink ID="site34" runat="server"  NavigateUrl="https://catalog.cumminsfiltration.com/catalog/CatalogSearch.do?_locale=en&_region"><img src="PartsPortalImage/cummingsFiltration.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site34" runat="server"  NavigateUrl="https://catalog.cumminsfiltration.com/catalog/CatalogSearch.do?_locale=en&_region" target="_blank"><img src="PartsPortalImage/cummingsFiltration.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                             </div>
@@ -534,7 +534,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site35"
            runat="server">
-                <asp:HyperLink ID="site35" runat="server" NavigateUrl="http://www.fleetlineproducts.com/"><img src="PartsPortalImage/fleetLine.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site35" runat="server" NavigateUrl="http://www.fleetlineproducts.com/" target="_blank"><img src="PartsPortalImage/fleetLine.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                 </div>
@@ -546,7 +546,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site36"
            runat="server">
-                <asp:HyperLink ID="site36" runat="server" NavigateUrl="http://www.fifthwheel.com/pdfs/literature/LT-135_PartsCatalog.pdf"><img src="PartsPortalImage/fontaineParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site36" runat="server" NavigateUrl="http://www.fifthwheel.com/pdfs/literature/LT-135_PartsCatalog.pdf" target="_blank"><img src="PartsPortalImage/fontaineParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                     </div>
@@ -558,7 +558,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site37"
            runat="server">
-                <asp:HyperLink ID="site37" runat="server"  NavigateUrl="http://www.dtnaecomponents.com/"><img src="PartsPortalImage/fordBoms.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site37" runat="server"  NavigateUrl="http://www.dtnaecomponents.com/" target="_blank"><img src="PartsPortalImage/fordBoms.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                         </div>
@@ -570,7 +570,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site38"
            runat="server">
-                <asp:HyperLink ID="site38" runat="server" NavigateUrl="https://dtnacontent-dtna.prd.freightliner.com/content/public/dtnaconnect---daimler-trucks-north-america.html"><img src="PartsPortalImage/freightlinerDaimler.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site38" runat="server" NavigateUrl="https://dtnacontent-dtna.prd.freightliner.com/content/public/dtnaconnect---daimler-trucks-north-america.html" target="_blank"><img src="PartsPortalImage/freightlinerDaimler.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                             </div>
@@ -582,7 +582,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site39"
            runat="server">
-                <asp:HyperLink ID="site39" runat="server"  NavigateUrl="https://www.track-trace.com/"><img src="PartsPortalImage/freightTrack.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site39" runat="server"  NavigateUrl="https://www.track-trace.com/" target="_blank"><img src="PartsPortalImage/freightTrack.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                 </div>
@@ -594,7 +594,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site40"
            runat="server">
-                <asp:HyperLink ID="site40" runat="server"  NavigateUrl="http://www.roadranger.com/rr/ProductsServices/ProductsbyCategory/Clutches/index.htm"><img src="PartsPortalImage/fullerEaton.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site40" runat="server"  NavigateUrl="http://www.roadranger.com/rr/ProductsServices/ProductsbyCategory/Clutches/index.htm" target="_blank"><img src="PartsPortalImage/fullerEaton.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                     </div>
@@ -606,7 +606,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site41"
            runat="server">
-                <asp:HyperLink ID="site41" runat="server" NavigateUrl="https://www.gatespowerpro.com/Comergent/en/US/direct/gates"><img src="PartsPortalImage/gatesBeltsNhoses.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site41" runat="server" NavigateUrl="https://www.gatespowerpro.com/Comergent/en/US/direct/gates" target="_blank"><img src="PartsPortalImage/gatesBeltsNhoses.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                         </div>
@@ -618,7 +618,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site42"
            runat="server">
-                <asp:HyperLink ID="site42" runat="server" NavigateUrl="http://ancowipers.com/finder/"><img src="PartsPortalImage/ancoWipers.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site42" runat="server" NavigateUrl="http://ancowipers.com/finder/" target="_blank"><img src="PartsPortalImage/ancoWipers.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                             </div>
@@ -630,7 +630,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site43"
            runat="server">
-                <asp:HyperLink ID="site43" runat="server" NavigateUrl="https://www.grote.com/"><img src="PartsPortalImage/grote.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site43" runat="server" NavigateUrl="https://www.grote.com/" target="_blank"><img src="PartsPortalImage/grote.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
                                                                                                                                                                 </div>
                                                                                                                                                                 <div>
@@ -642,7 +642,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site44"
            runat="server">
-                <asp:HyperLink ID="site44" runat="server"  NavigateUrl="https://www.accuridewheelendsolutions.com/"><img src="PartsPortalImage/guniteAccuride.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site44" runat="server"  NavigateUrl="https://www.accuridewheelendsolutions.com/" target="_blank"><img src="PartsPortalImage/guniteAccuride.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                     </div>
@@ -655,7 +655,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site45"
            runat="server">
-                <asp:HyperLink ID="site45" runat="server"  NavigateUrl="https://www.haldex.com/en/North-America/product-information/product-catalog/"><img src="PartsPortalImage/haldexParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site45" runat="server"  NavigateUrl="https://www.haldex.com/en/North-America/product-information/product-catalog/" target="_blank"><img src="PartsPortalImage/haldexParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                         </div>
@@ -667,7 +667,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site46"
            runat="server">
-                <asp:HyperLink ID="site46" runat="server"  NavigateUrl="https://www.hendrickson-intl.com/products"><img src="PartsPortalImage/hendricksonParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site46" runat="server"  NavigateUrl="https://www.hendrickson-intl.com/products" target="_blank"><img src="PartsPortalImage/hendricksonParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                             </div>
@@ -679,7 +679,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site47"
            runat="server">
-                <asp:HyperLink ID="site47" runat="server"  NavigateUrl="http://www.safholland.us/us/en"><img src="PartsPortalImage/safHolland.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site47" runat="server"  NavigateUrl="http://www.safholland.us/us/en" target="_blank"><img src="PartsPortalImage/safHolland.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                 </div>
@@ -691,7 +691,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site48"
            runat="server">
-                <asp:HyperLink ID="site48" runat="server"  NavigateUrl="https://www.hortonww.com/index.html"><img src="PartsPortalImage/hortonParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site48" runat="server"  NavigateUrl="https://www.hortonww.com/index.html" target="_blank"><img src="PartsPortalImage/hortonParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                     </div>
@@ -703,7 +703,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site49"
            runat="server">
-                <asp:HyperLink ID="site49" runat="server" NavigateUrl="http://www.interstate-mcbee.com/"><img src="PartsPortalImage/interstateMcbee.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site49" runat="server" NavigateUrl="http://www.interstate-mcbee.com/" target="_blank"><img src="PartsPortalImage/interstateMcbee.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                         </div>
@@ -715,7 +715,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site50"
            runat="server">
-                <asp:HyperLink ID="site50" runat="server"  NavigateUrl="http://dealers.isuzu.com/"><img src="PartsPortalImage/izuzuParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site50" runat="server"  NavigateUrl="http://dealers.isuzu.com/" target="_blank"><img src="PartsPortalImage/izuzuParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                             </div>
@@ -727,7 +727,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site51"
            runat="server">
-                <asp:HyperLink ID="site51" runat="server" NavigateUrl="https://jonesperformance.com/"><img src="PartsPortalImage/jonesPerformance.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site51" runat="server" NavigateUrl="https://jonesperformance.com/" target="_blank"><img src="PartsPortalImage/jonesPerformance.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                 </div>
@@ -739,7 +739,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site52"
            runat="server">
-                <asp:HyperLink ID="site52" runat="server" NavigateUrl="http://www.jostinternational.com/"><img src="PartsPortalImage/jostInternational.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site52" runat="server" NavigateUrl="http://www.jostinternational.com/" target="_blank"><img src="PartsPortalImage/jostInternational.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                     </div>
@@ -751,7 +751,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site53"
            runat="server">
-                <asp:HyperLink ID="site53" runat="server" NavigateUrl="https://karmak.com/"><img src="PartsPortalImage/karmak.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site53" runat="server" NavigateUrl="https://karmak.com/" target="_blank"><img src="PartsPortalImage/karmak.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                         </div>
@@ -763,7 +763,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site54"
            runat="server">
-                <asp:HyperLink ID="site54" runat="server"  NavigateUrl="http://productguide.luber-finer.com/"><img src="PartsPortalImage/luberFiner.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site54" runat="server"  NavigateUrl="http://productguide.luber-finer.com/" target="_blank"><img src="PartsPortalImage/luberFiner.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                             </div>
@@ -775,7 +775,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site55"
            runat="server">
-                <asp:HyperLink ID="site55" runat="server" NavigateUrl="http://www.maxxima.com/"><img src="PartsPortalImage/maxximaParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site55" runat="server" NavigateUrl="http://www.maxxima.com/" target="_blank"><img src="PartsPortalImage/maxximaParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                 </div>
@@ -787,7 +787,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site56"
            runat="server">
-                <asp:HyperLink ID="site56" runat="server" NavigateUrl="https://www.meritorpartsxpress.com/"><img src="PartsPortalImage/meritorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site56" runat="server" NavigateUrl="https://www.meritorpartsxpress.com/" target="_blank"><img src="PartsPortalImage/meritorParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                     </div>
@@ -799,7 +799,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site57"
            runat="server">
-                <asp:HyperLink ID="site57" runat="server" NavigateUrl="http://www.merrittequipment.com/"><img src="PartsPortalImage/merritParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site57" runat="server" NavigateUrl="http://www.merrittequipment.com/" target="_blank"><img src="PartsPortalImage/merritParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                         </div>
@@ -811,7 +811,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site58"
            runat="server">
-                <asp:HyperLink ID="site58" runat="server"  NavigateUrl="https://www.munciepower.com/"><img src="PartsPortalImage/muncieParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site58" runat="server"  NavigateUrl="https://www.munciepower.com/" target="_blank"><img src="PartsPortalImage/muncieParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                             </div>
@@ -823,7 +823,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site59"
            runat="server">
-                <asp:HyperLink ID="site59" runat="server" NavigateUrl="http://bwp-nsi.com/index.php"><img src="PartsPortalImage/networkSales.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site59" runat="server" NavigateUrl="http://bwp-nsi.com/index.php" target="_blank"><img src="PartsPortalImage/networkSales.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                 </div>
@@ -835,7 +835,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site60"
            runat="server">
-                <asp:HyperLink ID="site60" runat="server"  NavigateUrl="https://idp-dtna.prd.freightliner.com/siteminderagent/forms/FTLloginPWC.fcc?TYPE=100728833&REALMOID=06-f8b32589-f165-100d-aa64-85a3a2e40cb3&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-DbnOMLx0hbyB4m4EG1qTln76ChjW%2fW3X67YXdFCuXdSUXhZGbG8wQpdyPOkvPc0m&TARGET=-SM-HTTPS%3a%2f%2fidp--dtna%2eprd%2efreightliner%2ecom%2faffwebservices%2fredirectjsp%2fredirect%2ejsp%3fSPID%3durn%3adaimler%3aprod%3asyncron%26SMPORTALURL%3dhttps-%3A-%2F-%2Fidp--dtna%2eprd%2efreightliner%2ecom-%2Faffwebservices-%2Fpublic-%2Fsaml2sso%26SAMLTRANSACTIONID%3d17486e7e--ffa5c863--b4c90aa4--50618263--f69f45b8--95a0"><img src="PartsPortalImage/rimPro Daimler.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site60" runat="server"  NavigateUrl="https://idp-dtna.prd.freightliner.com/siteminderagent/forms/FTLloginPWC.fcc?TYPE=100728833&REALMOID=06-f8b32589-f165-100d-aa64-85a3a2e40cb3&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-DbnOMLx0hbyB4m4EG1qTln76ChjW%2fW3X67YXdFCuXdSUXhZGbG8wQpdyPOkvPc0m&TARGET=-SM-HTTPS%3a%2f%2fidp--dtna%2eprd%2efreightliner%2ecom%2faffwebservices%2fredirectjsp%2fredirect%2ejsp%3fSPID%3durn%3adaimler%3aprod%3asyncron%26SMPORTALURL%3dhttps-%3A-%2F-%2Fidp--dtna%2eprd%2efreightliner%2ecom-%2Faffwebservices-%2Fpublic-%2Fsaml2sso%26SAMLTRANSACTIONID%3d17486e7e--ffa5c863--b4c90aa4--50618263--f69f45b8--95a0" target="_blank"><img src="PartsPortalImage/rimPro Daimler.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                     </div>
@@ -847,7 +847,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site61"
            runat="server">
-                <asp:HyperLink ID="site61" runat="server" NavigateUrl="https://www.paiindustries.com/login.php?ret_link=%2Fcustomers%2Forder.php&type=notLogged"><img src="PartsPortalImage/paiIndustries.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site61" runat="server" NavigateUrl="https://www.paiindustries.com/login.php?ret_link=%2Fcustomers%2Forder.php&type=notLogged" target="_blank"><img src="PartsPortalImage/paiIndustries.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                         </div>
@@ -859,7 +859,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site62"
            runat="server">
-                <asp:HyperLink ID="site62" runat="server" NavigateUrl="http://www.panapacific.com/products"><img src="PartsPortalImage/panaPacific.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site62" runat="server" NavigateUrl="http://www.panapacific.com/products" target="_blank"><img src="PartsPortalImage/panaPacific.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                             </div>
@@ -871,7 +871,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site63"
            runat="server">
-                <asp:HyperLink ID="site63" runat="server"  NavigateUrl="https://www.permatex.com/"><img src="PartsPortalImage/permatexParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site63" runat="server"  NavigateUrl="https://www.permatex.com/" target="_blank"><img src="PartsPortalImage/permatexParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                 </div>
@@ -883,7 +883,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site64"
            runat="server">
-                <asp:HyperLink ID="site64" runat="server" NavigateUrl="http://phillipsind.com/"><img src="PartsPortalImage/phillipsAirElectric.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site64" runat="server" NavigateUrl="http://phillipsind.com/" target="_blank"><img src="PartsPortalImage/phillipsAirElectric.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                     </div>
@@ -895,7 +895,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site65"
            runat="server">
-                <asp:HyperLink ID="site65" runat="server" NavigateUrl="http://www.parker.com/portal/site/PARKER/menuitem.b90576e27a4d71ae1bfcc510237ad1ca/?vgnextoid=c38888b5bd16e010VgnVCM1000000308a8c0RCRD&vgnextfmt=EN"><img src="PartsPortalImage/raycorFilters parker.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site65" runat="server" NavigateUrl="http://www.parker.com/portal/site/PARKER/menuitem.b90576e27a4d71ae1bfcc510237ad1ca/?vgnextoid=c38888b5bd16e010VgnVCM1000000308a8c0RCRD&vgnextfmt=EN" target="_blank"><img src="PartsPortalImage/raycorFilters parker.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                         </div>
@@ -907,7 +907,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site66"
            runat="server">
-                <asp:HyperLink ID="site66" runat="server" NavigateUrl="http://heatexhd.com/"><img src="PartsPortalImage/radiators Cac.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site66" runat="server" NavigateUrl="http://heatexhd.com/" target="_blank"><img src="PartsPortalImage/radiators Cac.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                             </div>
@@ -919,7 +919,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site67"
            runat="server">
-                <asp:HyperLink ID="site67" runat="server" NavigateUrl="http://firewall.reddotcorp.com/main.asp"><img src="PartsPortalImage/redDot.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site67" runat="server" NavigateUrl="http://firewall.reddotcorp.com/main.asp" target="_blank"><img src="PartsPortalImage/redDot.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                 </div>
@@ -931,7 +931,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site68"
            runat="server">
-                <asp:HyperLink ID="site68" runat="server" NavigateUrl="https://www.trwaftermarket.com/us/products/heavy-duty/service-literature/service%20manuals/"><img src="PartsPortalImage/rossSteering.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site68" runat="server" NavigateUrl="https://www.trwaftermarket.com/us/products/heavy-duty/service-literature/service%20manuals/" target="_blank"><img src="PartsPortalImage/rossSteering.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                     </div>
@@ -943,7 +943,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site69"
            runat="server">
-                <asp:HyperLink ID="site69" runat="server"  NavigateUrl="http://sanden.com/index.php?id=AAUYOIFBS"><img src="PartsPortalImage/sandenParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site69" runat="server"  NavigateUrl="http://sanden.com/index.php?id=AAUYOIFBS" target="_blank"><img src="PartsPortalImage/sandenParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                         </div>
@@ -955,7 +955,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site70"
            runat="server">
-                <asp:HyperLink ID="site70" runat="server" NavigateUrl="http://www.seatsinc.com/"><img src="PartsPortalImage/seatsInc.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site70" runat="server" NavigateUrl="http://www.seatsinc.com/" target="_blank"><img src="PartsPortalImage/seatsInc.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                             </div>
@@ -968,7 +968,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site71"
            runat="server">
-                <asp:HyperLink ID="site71" runat="server" NavigateUrl="http://10.23.2.205/partslib/Sheppard/Sheppard%20-%20Seal%20Kits.pdf"><img src="PartsPortalImage/sheppardPDF.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site71" runat="server" NavigateUrl="http://10.23.2.205/partslib/Sheppard/Sheppard%20-%20Seal%20Kits.pdf" target="_blank"><img src="PartsPortalImage/sheppardPDF.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                 </div>
@@ -980,7 +980,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site72"
            runat="server">
-                <asp:HyperLink ID="site72" runat="server" NavigateUrl="http://www2.dana.com/expertforms/demenu.aspx?prod=JOI"><img src="PartsPortalImage/spicerDanaDriveline.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site72" runat="server" NavigateUrl="http://www2.dana.com/expertforms/demenu.aspx?prod=JOI" target="_blank"><img src="PartsPortalImage/spicerDanaDriveline.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                     </div>
@@ -992,7 +992,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site73"
            runat="server">
-                <asp:HyperLink ID="site73" runat="server" NavigateUrl="https://login.i.daimler.com/internet/login?brand=mbusa&TYPE=33554432&REALMOID=06-8ee5ab9a-7c21-115b-9f05-85faf120fb1e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$SM$lhWiF49lgROZdPUkbaI%2fVw5NUyUDZD6QhrMK0ilxlP0QOkJBXyg2wKyocDcQFVSI4FPoY0sIYKeglPo3cotpM2NEULGeZlMJ&TARGET=$SM$https%3a%2f%2fnetstar5%2embusa%2ei%2edaimler%2ecom%2fnetstar%2f"><img src="PartsPortalImage/netstar5.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site73" runat="server" NavigateUrl="https://login.i.daimler.com/internet/login?brand=mbusa&TYPE=33554432&REALMOID=06-8ee5ab9a-7c21-115b-9f05-85faf120fb1e&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$SM$lhWiF49lgROZdPUkbaI%2fVw5NUyUDZD6QhrMK0ilxlP0QOkJBXyg2wKyocDcQFVSI4FPoY0sIYKeglPo3cotpM2NEULGeZlMJ&TARGET=$SM$https%3a%2f%2fnetstar5%2embusa%2ei%2edaimler%2ecom%2fnetstar%2f" target="_blank"><img src="PartsPortalImage/netstar5.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                         </div>
@@ -1004,7 +1004,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site74"
            runat="server">
-                <asp:HyperLink ID="site74" runat="server" NavigateUrl="http://www.stemco.com/"><img src="PartsPortalImage/stemcoParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site74" runat="server" NavigateUrl="http://www.stemco.com/" target="_blank"><img src="PartsPortalImage/stemcoParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                             </div>
@@ -1016,7 +1016,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site75"
            runat="server">
-                <asp:HyperLink ID="site75" runat="server" NavigateUrl="http://www.stemco.com/product/qwikkit/"><img src="PartsPortalImage/kaiserKingPins.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site75" runat="server" NavigateUrl="http://www.stemco.com/product/qwikkit/" target="_blank"><img src="PartsPortalImage/kaiserKingPins.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                                 </div>
@@ -1028,7 +1028,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site76"
            runat="server">
-                <asp:HyperLink ID="site76" runat="server" NavigateUrl="http://www.truck-lite.com/webapp/wcs/stores/servlet/en/aurora"><img src="PartsPortalImage/truck-Lite.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site76" runat="server" NavigateUrl="http://www.truck-lite.com/webapp/wcs/stores/servlet/en/aurora" target="_blank"><img src="PartsPortalImage/truck-Lite.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
 </div>
@@ -1040,7 +1040,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site77"
            runat="server">
-                <asp:HyperLink ID="site77" runat="server" NavigateUrl="http://truck.uapac.com/"><img src="PartsPortalImage/unitedPacific.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site77" runat="server" NavigateUrl="http://truck.uapac.com/" target="_blank"><img src="PartsPortalImage/unitedPacific.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                                         </div>
@@ -1052,7 +1052,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site78"
            runat="server">
-                <asp:HyperLink ID="site78" runat="server"  NavigateUrl="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login"><img src="PartsPortalImage/volvoLogin.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site78" runat="server"  NavigateUrl="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login" target="_blank"><img src="PartsPortalImage/volvoLogin.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
                                                                                                                                                                                                                                                                                                             </div>
@@ -1064,7 +1064,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site79"
            runat="server">
-                <asp:HyperLink ID="site79" runat="server" NavigateUrl="http://www.webbwheel.com/"><img src="PartsPortalImage/webbWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site79" runat="server" NavigateUrl="http://www.webbwheel.com/" target="_blank"><img src="PartsPortalImage/webbWheels.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
                                                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                                                 <div>
@@ -1075,7 +1075,7 @@ button:hover, a:hover {
 
            AssociatedControlID="site80"
            runat="server">
-                <asp:HyperLink ID="site80" runat="server" NavigateUrl="http://zanotti.com/en/refrigerated-transport"><img src="PartsPortalImage/zonottiParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
+                <asp:HyperLink ID="site80" runat="server" NavigateUrl="http://zanotti.com/en/refrigerated-transport" target="_blank"><img src="PartsPortalImage/zonottiParts.PNG" style=" width:240px; height:130px;" /></asp:HyperLink></td>
           </asp:Label>
 
 
@@ -1086,7 +1086,7 @@ button:hover, a:hover {
 
       <div>
             <footer class="container-fluid text-right">
-                <p><a runat="server" href="https://www.tomnehl.com"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
+                <p><a runat="server" href="https://www.tomnehl.com" target="_blank"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
                 <p>TROUBLE WITH THIS SITE? 
                     <a href="mailto:aaronpfaff@tomnehl.com" type="button" class="btn btn-danger" >Click Here</a>
                 </p>
