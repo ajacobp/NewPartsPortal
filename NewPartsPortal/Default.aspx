@@ -238,11 +238,13 @@ img1:hover {
 
     <br />
 
- <div class="container-fluid text-center">    
+ <div class="container-fluid text-center">
+       <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+            { %>
   <div class="row content">
     <div class="col-sm-2 sidenav">
-
         <ul class="nav nav-pills nav-stacked">
+            
             <li ><a href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do" target="_blank">Pinnacle Login</a></li>
             <li ><a href="https://dtnaconnect.com" target="_blank">DTNA Login</a></li>
             <li ><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login"target="_blank">Volvo Login</a></li>
@@ -254,7 +256,11 @@ img1:hover {
             <li ><a href="AnsweringPhones.aspx">Answering Phone Process</a></li>
             <li ><a href="https://outlook.office.com" target="_blank">Email</a></li>
             <li ><a href="http://tntcloud.net/" target="_blank">Dispatch</a></li>
-<%--            <li ><a href="News.aspx">Discussion Board</a></li>--%>
+             <%}
+    else
+    {%>
+     <%}
+     %>
         </ul>
     </div>
 
@@ -341,13 +347,18 @@ img1:hover {
 
     <div class="col-sm-2 sidenav1">
         <center>
-
+             <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+             { %>
       <div class="RightArrow">
           <a href="/ChucksCorner.aspx">
                     <asp:image id="img" style="width:200px;height:200px"  runat="server" imageurl="Images/chucksCorner.png" />
           </a>
       </div>
-
+      <%}
+    else
+    {%>
+     <%}
+    %>
         <br/>
 
             

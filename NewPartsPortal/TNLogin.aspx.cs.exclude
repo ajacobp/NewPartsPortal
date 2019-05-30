@@ -1,0 +1,40 @@
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.Owin.Security;
+using System;
+using System.Web;
+using System.Web.UI;
+using NewPartsPortal;
+using System.Web.Security;
+using System.Drawing;
+
+public partial class TNLogin : Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+    }
+
+    protected void LogIn(object sender, EventArgs e)
+    {
+        string usr = UserName.Text.Trim().ToUpper();
+        string psswrd = Password.Text;
+
+        if (usr == "TNParts" && psswrd == "417EdgewoodParts")
+        {
+            FormsAuthentication.SetAuthCookie(usr, false);
+            string retrnUrl = Request.QueryString["returnUrl"];
+            if (!string.IsNullOrEmpty("returnUrl"))
+            {
+                Response.Redirect("returnUrl");
+            }
+            else
+            {
+                Response.Redirect("~/Default.aspx");
+            }
+        }
+        else
+            Label1.Text = "User name or password is wrong";
+            Label1.ForeColor = Color.Red;
+
+    }
+}
+

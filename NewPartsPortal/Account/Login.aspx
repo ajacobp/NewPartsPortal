@@ -2,7 +2,55 @@
 
 <%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
 
+
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+<style>
+     .navbar {
+        min-height: 80px;
+            
+            /*top: 2px;*/
+	        left: 2px;
+	        width: calc(100% - 4px);
+	        background: linear-gradient(rgba(0,0,170,0.7), rgba(0,0,0,0.9));
+
+}
+
+     .navbar-brand {
+        padding: 0 15px;
+        height: 80px;
+        line-height: 80px;
+
+}
+
+    .navbar-toggle {
+        /* (80px - button height 34px) / 2 = 23px */
+        margin-top: 23px;
+        padding: 9px 10px !important;
+}
+
+    @media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+
+  }
+}
+
+
+</style>
+    <br />
+       <br />
+
+    <center>
+<h1 style="font-weight: 800">
+    Tom Nehl Parts Portal Log in
+</h1>
+
+    </center>
+
+    <br />
+    <br />
     <h2><%: Title %>.</h2>
 
     <div class="row">
@@ -34,8 +82,9 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <div class="checkbox">
+                                
+                                <asp:Label runat="server" AssociatedControlID="RememberMe">Remember me?  &nbsp &nbsp</asp:Label>
                                 <asp:CheckBox runat="server" ID="RememberMe" />
-                                <asp:Label runat="server" AssociatedControlID="RememberMe">Remember me?</asp:Label>
                             </div>
                         </div>
                     </div>
@@ -45,10 +94,17 @@
                         </div>
                     </div>
                 </div>
+                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+                          { %>
                 <p>
                     <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register</asp:HyperLink>
                     if you don't have a local account.
                 </p>
+                                                                        <%}
+    else
+    {%>
+                        <%}
+                            %>
             </section>
         </div>
 
