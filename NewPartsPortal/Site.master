@@ -4,29 +4,28 @@
 <style>
     .navbar {
         min-height: 80px;
-}
+    }
 
     .navbar-brand {
         padding: 0 15px;
         height: 80px;
         line-height: 80px;
-}
+    }
 
     .navbar-toggle {
         /* (80px - button height 34px) / 2 = 23px */
         margin-top: 23px;
         padding: 9px 10px !important;
-}
+    }
 
     @media (min-width: 768px) {
-   .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-  }
-}
-
+        .navbar-nav > li > a {
+            /* (80px - line-height of 27px) / 2 = 26.5px */
+            padding-top: 26.5px;
+            padding-bottom: 26.5px;
+            line-height: 27px;
+        }
+    }
 </style>
 
 <html lang="en">
@@ -38,7 +37,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
@@ -77,34 +76,34 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                          { %>
-                        <li><a runat="server" style="text-decoration:none; font-size:x-large; font-weight:700;" href="~/">Home</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/ClassicParts">Classic Parts Portal</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/PartsPortal">Parts Portal</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="https://tomnehltruckcompany.formstack.com/forms/price_changes" target="_blank">Price Change</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="https://outlook.office.com" target="_blank">Email</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/HelpDesk">Helion</a></li>
-                        <li><a href="http://tntcloud.net/" target="_blank" style="text-decoration:none; font-size:large; font-weight:700;">Dispatch</a></li>
-                        <li><a runat="server" style="text-decoration:none; font-size:large; font-weight:700;" href="~/Directory">Directory</a></li>
+                        <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+                            { %>
+                        <li><a runat="server" style="text-decoration: none; font-size: x-large; font-weight: 700;" href="~/">Home</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="~/ClassicParts">Classic Parts Portal</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="~/PartsPortal">Parts Portal</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="https://tomnehltruckcompany.formstack.com/forms/price_changes" target="_blank">Price Change</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="https://outlook.office.com" target="_blank">Email</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="~/HelpDesk">Helion</a></li>
+                        <li><a href="http://tntcloud.net/" target="_blank" style="text-decoration: none; font-size: large; font-weight: 700;">Dispatch</a></li>
+                        <li><a runat="server" style="text-decoration: none; font-size: large; font-weight: 700;" href="~/Directory">Directory</a></li>
                         <%}
-    else
-    {%>
+                        else
+                        {%>
                         <%}
-                            %>
+                        %>
                     </ul>
-                   <asp:LoginView runat="server" ViewStateMode="Disabled">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                          { %>
-                              <li><a runat="server" href="~/Account/Register">Register</a></li>
-                                                        <%}
-    else
-    {%>
-                        <%}
-                            %>
-                                <li><a runat="server" href="~/Account/Login" style="font-weight:800; font-size:large;">Log in</a></li>
+                                    { %>
+                                <li><a runat="server" href="~/Account/Register">Register</a></li>
+                                <%}
+                                else
+                                {%>
+                                <%}
+                                %>
+                                <li><a runat="server" href="~/Account/Login" style="font-weight: 800; font-size: large;">Log in</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
@@ -116,9 +115,9 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
+                </div>
             </div>
         </div>
-     </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

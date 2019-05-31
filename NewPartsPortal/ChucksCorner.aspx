@@ -1,101 +1,100 @@
 ﻿<%@ Page Title="ChucksCorner" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="ChucksCorner.aspx.cs" Inherits="ChucksCorner" %>
-
+                            
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-<style>
-
+    <style>
         footer {
-        background-color: #555;
-        color: white;
-        padding: 15px;
-        border-radius:5px;
-        opacity:0.9;
+            background-color: #555;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            opacity: 0.9;
+        }
 
-    }
+        .navbar {
+            min-height: 80px;
+            left: 2px;
+            width: calc(100% - 4px);
+            background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+        }
 
-    .navbar {
-         min-height: 80px;
+        .navbar-brand {
+            padding: 0 15px;
+            height: 80px;
+            line-height: 80px;
+        }
 
-        	left: 2px;
-	        width: calc(100% - 4px);
-	        background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
-}
+        .navbar-toggle {
+            /* (80px - button height 34px) / 2 = 23px */
+            margin-top: 23px;
+            padding: 9px 10px !important;
+        }
 
-    .navbar-brand {
-        padding: 0 15px;
-        height: 80px;
-        line-height: 80px;
-}
+        @media (min-width: 768px) {
+            .navbar-nav > li > a {
+                /* (80px - line-height of 27px) / 2 = 26.5px */
+                padding-top: 26.5px;
+                padding-bottom: 26.5px;
+                line-height: 27px;
+            }
 
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
-}
+            .center {
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+            }
 
-    @media (min-width: 768px) {
-    .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-  }
+            div.gallery {
+                margin: 5px;
+                border: 1px solid #ccc;
+                float: left;
+                width: 90px;
+            }
 
-    .center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-}
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;  
-  width: 90px;
-}
+                div.gallery:hover {
+                    border: 1px solid #777;
+                }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+                div.gallery img {
+                    width: 100%;
+                    height: auto;
+                }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+            div.desc {
+                padding: 15px;
+                text-align: center;
+            }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+            img1 {
+                border: 1px solid #ddd; /* Gray border */
+                border-radius: 4px; /* Rounded border */
+                padding: 5px; /* Some padding */
+                width: 150px; /* Set a small width */
+            }
 
-img1 {
-  border: 1px solid #ddd; /* Gray border */
-  border-radius: 4px;  /* Rounded border */
-  padding: 5px; /* Some padding */
-  width: 150px; /* Set a small width */
-}
+                /* Add a hover effect (blue shadow) */
+                img1:hover {
+                    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+                }
+        }
+    </style>
+    <br />
+    <br />
+    <br />
 
-/* Add a hover effect (blue shadow) */
-img1:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
+        <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+                            { %>
 
-}
-</style>
-        <br />
-        <br />
-        <br />
-
-
-         <center>
+    <center>
          <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:220px; width:720px"/></asp:HyperLink>
          </center>
 
     <br />
 
-        <center>
+    <center>
         <img src="Images/ChucksCorner%20(1).png" style="height:250px; width:1000px"/>
         </center>
-        <br />
-        <br />
+    <br />
+    <br />
     <center>
         <h1 style="font-weight:bolder">May Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
@@ -202,21 +201,36 @@ img1:hover {
 </center>
 
 
-<br>
-<br /><br>
-<br /><br>
-<br /><br>
-<br /><br>
-<br /><br>
-<br /><br>
-<br />
-            <footer class="container-fluid text-right">
-                <p><a runat="server" href="https://www.tomnehl.com"><img src="Images/tomNehlTLogo.png" runat="server" style="height:70px; width:220px" /></a>   &copy; 2019</p>
-                <p>TROUBLE WITH THIS SITE? 
-                    <a href="mailto:aaronpfaff@tomnehl.com" type="button" class="btn btn-danger" >Click Here</a>
-                </p>
+    <br>
+    <br />
+    <br>
+    <br />
+    <br>
+    <br />
+    <br>
+    <br />
+    <br>
+    <br />
+    <br>
+    <br />
+    <br>
+    <br />
+    <footer class="container-fluid text-right">
+        <p><a runat="server" href="https://www.tomnehl.com">
+            <img src="Images/tomNehlTLogo.png" runat="server" style="height: 70px; width: 220px" /></a>   &copy; 2019</p>
+        <p>
+            TROUBLE WITH THIS SITE? 
+                    <a href="mailto:aaronpfaff@tomnehl.com" type="button" class="btn btn-danger">Click Here</a>
+        </p>
 
-            </footer>
-
+    </footer>
+       <%}
+                        else
+                        {%>
+    <center>
+    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
+        </center>
+                        <%}
+                        %>
 </asp:Content>
 
