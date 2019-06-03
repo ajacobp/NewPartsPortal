@@ -246,6 +246,8 @@
                     <li><a href="https://dtnaconnect.com" target="_blank">DTNA Login</a></li>
                     <li><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login" target="_blank">Volvo Login</a></li>
                     <li><a href="https://www.nexpart.com/login.php?" target="_blank">Nexpart Login</a></li>
+                    <hr />
+                    <li><a runat="server" style="text-decoration: none;" href="~/PartsPortal">Parts Portal</a></li>
                     <li><a href="FreightPolicy.aspx">Freight Policy</a></li>
                     <li><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes" target="_blank">Price Change</a></li>
                     <li><a href="CoreInspections.aspx">Core Inspection Guide</a></li>
