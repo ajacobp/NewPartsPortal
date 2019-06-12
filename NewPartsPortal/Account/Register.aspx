@@ -1,6 +1,47 @@
 ﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Account_Register" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <style>
+     .navbar {
+        min-height: 80px;
+            
+            /*top: 2px;*/
+	        left: 2px;
+	        width: calc(100% - 4px);
+	        background: linear-gradient(rgba(0,0,170,0.7), rgba(0,0,0,0.9));
+
+}
+
+     .navbar-brand {
+        padding: 0 15px;
+        height: 80px;
+        line-height: 80px;
+
+}
+
+    .navbar-toggle {
+        /* (80px - button height 34px) / 2 = 23px */
+        margin-top: 23px;
+        padding: 9px 10px !important;
+}
+
+    @media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+
+  }
+}
+
+
+</style>
+        <br />
+       <br />
+
+ <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+    { %>
+
     <h2><%: Title %>.</h2>
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
@@ -42,5 +83,14 @@
             </div>
         </div>
     </div>
+                            <%}
+                        else
+                        {%>
+       <center>
+    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
+        </center>
+                        <%}
+                        %>
+
 </asp:Content>
 
