@@ -1,4 +1,4 @@
-﻿<%@ Page Title="News" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="News.aspx.cs" Inherits="News" %>
+﻿<%@ Page Title="News" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="PriceNews.aspx.cs" Inherits="PriceNews" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -63,34 +63,57 @@
 
     <br />
     <center>
-        <div class="container">
 
-        <div id="carousel" class="carousel slide-fade" data-interval="3000" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    
-                    <img src="Images/tomNehlDiscussionBoard1.jpg" width="800" height="445" style="border-radius:25px"/>
-                </div>
-                <div class="item">
+            <asp:Label ID="lblSearchPrice" runat="server" Font-Bold="True" Font-Size="xx-Large" Font-Strikeout="False" Text="Search Price News"></asp:Label>
+<br />
+            <asp:Label ID="lblNoResult" runat="server" Font-Bold="True" Font-Size="Large" Font-Strikeout="False" Visible="True" Text="Search By One of the following: PN | Shopper | Price | Date"></asp:Label>
+<br />
+<br />
+            <asp:TextBox ID="txtSearchPrice" runat="server" Height="33px" Width="349px"></asp:TextBox>
+            <img src="Images/searchGlass.png" />
+            <asp:Button ID="btnSearchPrice" runat="server" Height="37px" OnClick="btnSearchPrice_Click" Text="Search" Width="131px" />
+        <br />
 
-                    <img src="Images/tomNehlDiscussionBoard2.jpg" width="800" height="445" style="border-radius:25px"/>
-                </div>
-                <div class="item">
 
-                    <img src="Images/tomNehlDiscussionBoard3.jpg" width="800" height="445" style="border-radius:25px"/>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
         </center>
 <br />
+
+    <br />
+     <center>
+            <asp:GridView ID="searchGridPrice" runat="server" class="table table-hover table-responsive" AutoGenerateColumns="False" Visible="False">
+                    <Columns>
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
+                    <ControlStyle ForeColor="Red" />
+                    </asp:HyperLinkField>
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
+                    <ControlStyle ForeColor="Green" />
+                    </asp:HyperLinkField>
+
+                    <asp:BoundField DataField="Poster" HeaderText="Posted By" ItemStyle-Width="60px"/>
+                    <asp:BoundField DataField="Shopper" HeaderText="Shopper" ItemStyle-Width="100px"/>
+                    <asp:BoundField DataField="PN" HeaderText="PN" ItemStyle-Width="150px" />
+                    <asp:BoundField DataField="Details" HeaderText="Details" ItemStyle-Width="400px"/>
+                    <asp:BoundField DataField="Price" HeaderText="Price" ItemStyle-Width="20px" />
+                    <asp:BoundField DataField="Date" HeaderText="Date" ItemStyle-Width="20px" />
+
+                    </Columns>
+                        
+             </asp:GridView>
+     </center>
+<br />
+        <center>
+            <asp:Button ID="btnClearSearchPrice" runat="server" Visible="false" CssClass="btn btn-danger btn-default" Text="Clear Search" OnClick="btnClearSearchPrice_Click" />
+<br />
+<br />
+
     <br />
     <div>
-                <asp:Button ID="btnAddNews" runat="server" Height="37px" Text="Add to Discussion Board!" Width="242px" Font-Bold="True" Font-Size="Large" ForeColor="Blue" OnClick="btnAddNews_Click" />
+                <asp:Button ID="btnAddNews" runat="server"  Text="Add to Price News Board!" Width="242px" Font-Bold="True" CssClass="btn btn-default btn-default" OnClick="btnAddNews_Click" />
+                &nbsp
+                <asp:Button ID="btnExportPriceNews" runat="server"  Font-Bold="True" CssClass="btn btn-warning btn-default" OnClick="btnExportPrice_Click" Text="Export All Price News |Excel|" Width="257px" />
 
-
+<br />
+<br />
             <table id="newsTable" runat="server" class="table table-hover table-responsive">
             <thread>
         <tr>
@@ -102,29 +125,38 @@
             </tr>
         <tr>
             <td>
-        <asp:Label ID="lblPosterContact" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Posters Contact" ></asp:Label>
+        <asp:Label ID="lblShopper" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Company or Person Price Shopping" ></asp:Label>
                                     </td><td>
 
-        <asp:TextBox ID="txtPosterContact" runat="server" Width="200px" MaxLength="50" ></asp:TextBox>
+        <asp:TextBox ID="txtShopper" runat="server" Width="200px" MaxLength="50" ></asp:TextBox>
         </td>
             </tr>
         <tr>
             <td>
-        <asp:Label ID="lblNewTitle" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Title" ></asp:Label>
+        <asp:Label ID="lblPN" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Part Number" ></asp:Label>
                                     </td><td>
 
-        <asp:TextBox ID="txtNewTitle" runat="server" Width="432px" MaxLength="100" ></asp:TextBox>
+        <asp:TextBox ID="txtPN" runat="server" Width="432px" MaxLength="100" ></asp:TextBox>
         </td>
             </tr>
 
         <tr>
             <td>
-        <asp:Label ID="lblNews" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Subject" ></asp:Label>
+        <asp:Label ID="lblDetails" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Details" ></asp:Label>
                                     </td><td>
 
-        <asp:TextBox ID="txtNews" runat="server" Width="798px" MaxLength="2000" Height="202px" TextMode="MultiLine" ></asp:TextBox>
+        <asp:TextBox ID="txtDetails" runat="server" Width="798px" MaxLength="2000" Height="202px" TextMode="MultiLine" ></asp:TextBox>
         </td>
             </tr>
+                        <tr>
+            <td>
+        <asp:Label ID="lblPrice" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Price Quoted" ></asp:Label>
+                                    </td><td>
+
+        <asp:TextBox ID="txtPrice" runat="server" Width="133px" MaxLength="10" >$</asp:TextBox>
+        </td>
+            </tr>
+
         <tr>
             <td>
         <asp:Label ID="lblDate" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="#0066FF" Text="Date Posted" ></asp:Label>
@@ -155,17 +187,18 @@
          <center>
             <asp:GridView ID="newsGrid" runat="server" class="table table-hover table-responsive" AutoGenerateColumns="False" Visible="true">
                     <Columns>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="News.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
                     <ControlStyle ForeColor="Red" />
                     </asp:HyperLinkField>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="News.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
                     <ControlStyle ForeColor="Green" />
                     </asp:HyperLinkField>
 
                     <asp:BoundField DataField="Poster" HeaderText="Posted By" ItemStyle-Width="60px"/>
-                    <asp:BoundField DataField="Contact" HeaderText="Posters Contact" ItemStyle-Width="100px"/>
-                    <asp:BoundField DataField="Title" HeaderText="Title" ItemStyle-Width="150px" />
-                    <asp:BoundField DataField="News" HeaderText="Subject" ItemStyle-Width="400px"/>
+                    <asp:BoundField DataField="Shopper" HeaderText="Shopper" ItemStyle-Width="100px"/>
+                    <asp:BoundField DataField="PN" HeaderText="PN" ItemStyle-Width="150px" />
+                    <asp:BoundField DataField="Details" HeaderText="Details" ItemStyle-Width="400px"/>
+                    <asp:BoundField DataField="Price" HeaderText="Price" ItemStyle-Width="20px" />
                     <asp:BoundField DataField="Date" HeaderText="Date" ItemStyle-Width="20px" />
 
                     </Columns>

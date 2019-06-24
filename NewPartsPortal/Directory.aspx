@@ -106,7 +106,7 @@
 <br />
 <br />
 <br />
-            <asp:Button ID="Button1" runat="server" BackColor="White" BorderStyle="Outset" Font-Bold="True" ForeColor="Black" OnClick="btnExport_Click" Text="Export Directory to EXCEL" Width="257px" />
+            <asp:Button ID="Button1" runat="server"  Font-Bold="True" CssClass="btn btn-warning btn-default" OnClick="btnExport_Click" Text="Export Directory |Excel|" Width="257px" />
         </center>
 
 
