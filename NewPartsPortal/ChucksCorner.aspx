@@ -94,7 +94,7 @@
     <br />
     <br />
     <center>
-        <h1 style="font-weight:bolder">May Parts Newsletter</h1>
+        <h1 style="font-weight:bolder">July Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
@@ -118,23 +118,23 @@
     <div class="img1">
     <div class ="gallery">
         <a target="_blank" href="Images/julyParts1.PNG">
-        <img src="Images/pNewsMay1.png" alt="Page 1" width="800" height="600">
+        <img src="Images/julyParts1.png" alt="Page 1" width="800" height="600">
         </a>
     </div>
 
     <div class ="gallery">
         <a target="_blank" href="Images/julyParts2.PNG">
-        <img src="Images/pNewsMay2.PNG" width="800" height="600" alt="Page 2">
+        <img src="Images/julyParts2.PNG" width="800" height="600" alt="Page 2">
         </a>
     </div>
     <div class ="gallery">
         <a target="_blank" href="Images/julyParts3.PNG">
-        <img src="Images/pNewsMay3.PNG" alt="Page 3" width="800" height="600">
+        <img src="Images/julyParts3.PNG" alt="Page 3" width="800" height="600">
         </a>
     </div>
     <div class ="gallery">
         <a target="_blank" href="Images/julyParts4.PNG">
-        <img src="Images/pNewsMay4.PNG" alt="Page 4" width="800" height="600">
+        <img src="Images/julyParts4.PNG" alt="Page 4" width="800" height="600">
         </a>
     </div>
   </div>

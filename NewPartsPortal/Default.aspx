@@ -298,16 +298,16 @@
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/mayNews1.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/julyNews1.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/mayNews2.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/julyNews2.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/mayNews3.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/julyNews3.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/mayNews4.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/julyNews4.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
@@ -317,24 +317,24 @@
 
                     <div class="img1">
                         <div class="gallery">
-                            <a target="_blank" href="Images/mayNews4.png">
-                                <img src="Images/mayNews4.png" alt="Page 4" width="800" height="600">
+                            <a target="_blank" href="Images/julyNews4.png">
+                                <img src="Images/julyNews4.png" alt="Page 4" width="800" height="600">
                             </a>
                         </div>
 
                         <div class="gallery">
-                            <a target="_blank" href="Images/mayNews3.png">
-                                <img src="Images/mayNews3.png" width="800" height="600" alt="Page 3">
+                            <a target="_blank" href="Images/julyNews3.png">
+                                <img src="Images/julyNews3.png" width="800" height="600" alt="Page 3">
                             </a>
                         </div>
                         <div class="gallery">
-                            <a target="_blank" href="Images/mayNews2.png">
-                                <img src="Images/mayNews2.png" alt="Page 2" width="800" height="600">
+                            <a target="_blank" href="Images/julyNews2.png">
+                                <img src="Images/julyNews2.png" alt="Page 2" width="800" height="600">
                             </a>
                         </div>
                         <div class="gallery">
-                            <a target="_blank" href="Images/mayNews1.png">
-                                <img src="Images/mayNews1.png" alt="Page 1" width="800" height="600">
+                            <a target="_blank" href="Images/julyNews1.png">
+                                <img src="Images/julyNews1.png" alt="Page 1" width="800" height="600">
                             </a>
                         </div>
                     </div>
