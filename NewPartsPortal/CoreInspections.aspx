@@ -20,7 +20,7 @@
 
     }
 
-    .navbar {
+    .mynav_navbar {
          min-height: 50px;
             
         	left: 2px;
@@ -29,19 +29,19 @@
             position:relative;
 }
 
-    .navbar-brand {
+    .mynav_navbar-brand {
         padding: 0 15px;
         height: 80px;
         line-height: 80px;
 }
 
-    .navbar-toggle {
+    .mynav_navbar-toggle {
         margin-top: 23px;
         padding: 9px 10px !important;
 }
 
     @media (min-width: 768px) {
-    .navbar-nav > li > a {
+    .mynav_navbar-nav > li > a {
         padding-top: 26.5px;
         padding-bottom: 26.5px;
         line-height: 27px;
@@ -73,8 +73,6 @@
         <br />
         <br />
         <br />
-            <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                            { %>
 
 
 
@@ -1238,13 +1236,5 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 </script>
-       <%}
-                        else
-                        {%>
-    <center>
-    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
-        </center>
-                        <%}
-                        %>
 
 </asp:Content>

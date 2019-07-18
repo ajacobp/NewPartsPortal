@@ -13,7 +13,7 @@ using System.Text;
 
 public partial class PriceNews : Page
 {
-    SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+    SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
     SqlCommand cmd;
     SqlDataReader dr;
 

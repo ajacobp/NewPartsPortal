@@ -12,43 +12,11 @@
 
     }
 
-    .navbar {
-         min-height: 80px;
 
-        	left: 2px;
-	        width: calc(100% - 4px);
-	        background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
-}
-
-    .navbar-brand {
-        padding: 0 15px;
-        height: 80px;
-        line-height: 80px;
-}
-
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
-}
-
-    @media (min-width: 768px) {
-    .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-  }
-}
 </style>
         <br />
         <br />
         <br />
-                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                            { %>
-
-
-
              <center>
          <asp:HyperLink ID="helion" runat="server" NavigateUrl="https://heliontechnologies.com/" Target="_blank"><img src="Images/Helion_RGB_Logo.png" style="height:220px; width:720px"/></asp:HyperLink>
          </center>
@@ -90,14 +58,6 @@
 
             </footer>
       </div>
-               <%}
-                        else
-                        {%>
-    <center>
-    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
-        </center>
-                        <%}
-                        %>
 
 </asp:Content>
 

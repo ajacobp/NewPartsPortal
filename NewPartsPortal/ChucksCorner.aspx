@@ -10,30 +10,7 @@
             opacity: 0.9;
         }
 
-        .navbar {
-            min-height: 80px;
-            left: 2px;
-            width: calc(100% - 4px);
-            background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
-        }
 
-        .navbar-brand {
-            padding: 0 15px;
-            height: 80px;
-            line-height: 80px;
-        }
-
-        .navbar-toggle {
-            margin-top: 23px;
-            padding: 9px 10px !important;
-        }
-
-        @media (min-width: 768px) {
-            .navbar-nav > li > a {
-                padding-top: 26.5px;
-                padding-bottom: 26.5px;
-                line-height: 27px;
-            }
 
             .center {
                 margin: auto;
@@ -79,8 +56,6 @@
     <br />
     <br />
 
-        <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                            { %>
 
     <center>
          <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:220px; width:720px"/></asp:HyperLink>
@@ -222,13 +197,5 @@
         </p>
 
     </footer>
-       <%}
-                        else
-                        {%>
-    <center>
-    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
-        </center>
-                        <%}
-                        %>
 </asp:Content>
 

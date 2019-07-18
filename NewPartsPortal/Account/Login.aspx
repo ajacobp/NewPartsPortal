@@ -5,38 +5,6 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
 <style>
-     .navbar {
-        min-height: 80px;
-            
-            /*top: 2px;*/
-	        left: 2px;
-	        width: calc(100% - 4px);
-	        background: linear-gradient(rgba(0,0,170,0.7), rgba(0,0,0,0.9));
-
-}
-
-     .navbar-brand {
-        padding: 0 15px;
-        height: 80px;
-        line-height: 80px;
-
-}
-
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
-}
-
-    @media (min-width: 768px) {
-    .navbar-nav > li > a {
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-
-  }
-}
-
 
 </style>
     <br />
@@ -94,17 +62,10 @@
                         </div>
                     </div>
                 </div>
-                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                          { %>
                 <p>
                     <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register</asp:HyperLink>
                     if you don't have a local account.
                 </p>
-                                                                        <%}
-    else
-    {%>
-                        <%}
-                            %>
             </section>
         </div>
 

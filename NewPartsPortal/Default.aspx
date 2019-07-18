@@ -19,45 +19,8 @@
             opacity: 0.9;
         }
 
-        .navbar {
-            min-height: 80px;
-            /*top: 2px;*/
-            left: 2px;
-            width: calc(100% - 4px);
-            background: linear-gradient(rgba(0,0,170,0.7), rgba(0,0,0,0.9));
-        }
-
-        .navbar-brand {
-            padding: 0 15px;
-            height: 80px;
-            line-height: 80px;
-        }
-
-        .navbar-toggle {
-            /* (80px - button height 34px) / 2 = 23px */
-            margin-top: 23px;
-            padding: 9px 10px !important;
-        }
-
-        @media (min-width: 768px) {
-            .navbar-nav > li > a {
-                padding-top: 26.5px;
-                padding-bottom: 26.5px;
-                line-height: 27px;
-            }
-        }
 
         /* Set gray background color and 100% height */
-        .sidenav {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            background-color: white;
-            height: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 0px;
-            opacity: 0.8;
-        }
 
         /* Set black background color, white text and some padding */
 
@@ -72,19 +35,6 @@
                 height: auto;
             }
         }
-
-        .nav-pills {
-            border: 2px solid #758399;
-            border-radius: 5px;
-            font-size: medium;
-            font-weight: 600;
-            color: #ffffff;
-        }
-
-            .nav-pills > li > a:hover {
-                background-color: #ff0000 !important;
-                color: black;
-            }
 
         .carousel-fade .carousel-inner .item {
             opacity: 0;
@@ -236,32 +186,28 @@
     <br />
 
     <div class="container-fluid text-center">
-        <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-               { %>
         <div class="row content">
             <div class="col-sm-2 sidenav">
-                <ul class="nav nav-pills nav-stacked">
+               <div class="container-fluid text-left" style="opacity:0.8">
+                    <div id="cont_f86dd0053fa586ba8bb0aa0c4740c402">
+                        <script type="text/javascript" async src="https://www.theweather.com/wid_loader/f86dd0053fa586ba8bb0aa0c4740c402"></script>
 
-                    <li><a href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do" target="_blank">Pinnacle Login</a></li>
-                    <li><a href="https://dtnaconnect.com" target="_blank">DTNA Login</a></li>
-                    <li><a href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login" target="_blank">Volvo Login</a></li>
-                    <li><a href="https://www.nexpart.com/login.php?" target="_blank">Nexpart Login</a></li>
-                    <hr />
-                    <li><a runat="server" style="text-decoration: none;" href="~/PriceNews">Price News</a></li>
-                    <li><a runat="server" style="text-decoration: none;" href="~/PartsPortal">Parts Portal</a></li>
-                    <li><a href="FreightPolicy.aspx">Freight Policy</a></li>
-                    <li><a href="https://tomnehltruckcompany.formstack.com/forms/price_changes" target="_blank">Price Change</a></li>
-                    <li><a href="CoreInspections.aspx">Core Inspection Guide</a></li>
-                    <li><a href="QuoteParts.aspx">Creating Quote/Parts Order</a></li>
-                    <li><a href="AnsweringPhones.aspx">Answering Phone Process</a></li>
-                    <li><a href="https://outlook.office.com" target="_blank">Email</a></li>
-                    <li><a href="http://tntcloud.net/" target="_blank">Dispatch</a></li>
-                    <%}
-                       else
-                       {%>
-                    <%}
-                    %>
-                </ul>
+                    </div>
+               </div>
+                &nbsp
+               <div class="container-fluid text-left" style="opacity:0.8">
+                    <div id="cont_ca7c9ec9bf4f38fd785b0d05493f00a9">
+                        <script type="text/javascript" async src="https://www.theweather.com/wid_loader/ca7c9ec9bf4f38fd785b0d05493f00a9"></script>
+                    </div>
+               </div>
+                &nbsp
+               <div class="container-fluid text-left" style="opacity:0.8">
+                    <div id="cont_425c08aa59d36d096ffa6a87acf731c8">
+                        <script type="text/javascript" async src="https://www.theweather.com/wid_loader/425c08aa59d36d096ffa6a87acf731c8"></script>
+
+                     </div>
+               </div>
+
             </div>
 
             <div class="col-sm-8 text-left">
@@ -347,26 +293,13 @@
 
     <div class="col-sm-2 sidenav1">
         <center>
-             <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                    { %>
       <div class="RightArrow">
           <a href="/ChucksCorner.aspx">
                     <asp:image id="img" style="width:200px;height:200px"  runat="server" imageurl="Images/chucksCorner.png" />
           </a>
       </div>
-      <%}
-             else
-             {%>
-     <%}
-    %>
         <br/>
 
-            
-            <div class="container-fluid text-center" style="opacity:0.8">
-            <div id="cont_e01c77a62c15a1f00f6627139c132ff8" >
-                <script type="text/javascript" async src="https://www.theweather.com/wid_loader/e01c77a62c15a1f00f6627139c132ff8"></script>
-            </div>
-            </div>
         <br/>
 
       <div>

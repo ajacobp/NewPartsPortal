@@ -13,43 +13,94 @@
     }
 
 
-    .navbar {
-        min-height: 80px;
+ .mynav_navbar {
+  overflow: hidden;
+  background-color: #333;
+  background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  text-decoration: none;
 
-        	left: 2px;
-	        width: calc(100% - 4px);
-	        background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
 
 }
 
+.mynav_navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
-    .navbar-brand {
-        padding: 0 15px;
-        height: 80px;
-        line-height: 80px;
 }
 
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
+.mynav_dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-    @media (min-width: 768px) {
-    .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
-        line-height: 27px;
-  }
+.mynav_dropdown .mynav_dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-decoration: none;
+
 }
+
+.mynav_navbar a:hover, .mynav_dropdown:hover .mynav_dropbtn {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+}
+
+.mynav_dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(17,8,167);
+  background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+  opacity:1.0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 51;
+  text-decoration: none;
+
+}
+
+.mynav_dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.mynav_dropdown-content a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+
+}
+
+.mynav_dropdown:hover .mynav_dropdown-content {
+  display: block;
+    color:white;
+      text-decoration: none;
+
+}
+
     </style>
 
     <br />
     <br />
     <br />
-            <% if (HttpContext.Current.User.Identity.IsAuthenticated)
-                            { %>
 
 
          <center>
@@ -695,7 +746,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <style>
 <!--
  /* Font Definitions */
- 
+ a{text-decoration:none;}
+
  @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
@@ -734,7 +786,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	font-size:12.0pt;
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";}
-h2
+/*h2
 	{mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-qformat:yes;
@@ -912,7 +964,7 @@ span.SpellE
 	mso-footer-margin:.5in;
 	mso-paper-source:0;}
 div.WordSection1
-	{page:WordSection1;}
+	{page:WordSection1;}*/
 -->
 </style>
 <!--[if gte mso 10]>
@@ -965,7 +1017,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   padding:0in 0in 0in 0in'>
   <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
   normal'><span style='font-size:14.0pt;font-family:"Candara",sans-serif'><a
-  href="http://get.teamviewer.com/3s22t5k" title="Systems Dept Remote Support">Support</a></span></b></p>
+  href="helpdesk.aspx" title="Systems Dept Remote Support">Support</a></span></b></p>
   </td>
   <td width=207 colspan=3 valign=top style='width:155.15pt;border:none;
   border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
@@ -1891,14 +1943,6 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
             </footer>
       </div>
 
-           <%}
-                        else
-                        {%>
-    <center>
-    <h1 style="font-weight:800;">You Must Log in to access this site</h1>
-        </center>
-                        <%}
-                        %>
 
 </asp:Content>
 
