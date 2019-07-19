@@ -14,14 +14,21 @@
 
 
 </style>
-        <br />
-        <br />
-        <br />
-             <center>
-         <asp:HyperLink ID="helion" runat="server" NavigateUrl="https://heliontechnologies.com/" Target="_blank"><img src="Images/Helion_RGB_Logo.png" style="height:220px; width:720px"/></asp:HyperLink>
-         </center>
+    <br />
+    <br />
+    <br />
+       
 
 
+    <center>
+         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:200px; width:540px"/></asp:HyperLink>
+             <asp:HyperLink ID="home2" runat="server" NavigateUrl="default.aspx"><img src="Images/NFWS%20-%20Full%20Color.png" style="height:200px; width:540px"/></asp:HyperLink>
+    <br />
+       <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://heliontechnologies.com/"><img src="Images/Helion_RGB_Logo.png" style="height:100px; width:270px"/></asp:HyperLink>
+
+    </center>
+    <br />
+    <br />
     <br />
 
     <div class="jumbotron">

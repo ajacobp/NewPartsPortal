@@ -21,17 +21,20 @@
         <br />
         <br />
         <br />
-<%--                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
                             { %>
---%>
 
 
-         <center>
-         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:220px; width:720px"/></asp:HyperLink>
-         </center>
+       
 
+
+    <center>
+         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:200px; width:540px"/></asp:HyperLink>
+             <asp:HyperLink ID="home2" runat="server" NavigateUrl="default.aspx"><img src="Images/NFWS%20-%20Full%20Color.png" style="height:200px; width:540px"/></asp:HyperLink>
+
+    </center>
+    <br />   
     <br />
-
     <br />
     <center>
 
@@ -189,7 +192,7 @@
                 </p>
 
             </footer>      </div>
-<%--               <%}
+               <%}
                         else
                         {%>
     <center>
@@ -197,5 +200,5 @@
         </center>
                         <%}
                         %>
---%>
+
 </asp:Content>
