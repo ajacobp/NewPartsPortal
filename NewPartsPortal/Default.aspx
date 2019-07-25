@@ -359,12 +359,17 @@
         <br/>
 
         <br/>
+      <div>
+          <asp:HyperLink ID="email" runat="server" NavigateUrl="https://outlook.office.com/mail/inbox" Target="_blank"><img src="Images/outlookLogo.png" style="width:150px;height:120px;"/></asp:HyperLink>
+      </div>
+<br/>
 
       <div>
-          <asp:HyperLink ID="Elite" runat="server" NavigateUrl="https://freightliner.com/service/elite-support/"><img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/></asp:HyperLink>
+          <asp:HyperLink ID="Elite" runat="server" NavigateUrl="https://freightliner.com/service/elite-support/" Target="_blank"><img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
+<br/>
        <div>
-            <asp:HyperLink ID="Express" runat="server" NavigateUrl="https://freightliner.com/service/express-assessment/"><img src="Images/logo-express-assess_1.png" style="width:200px;height:150px"/></asp:HyperLink>
+            <asp:HyperLink ID="Express" runat="server" NavigateUrl="https://freightliner.com/service/express-assessment/" Target="_blank"><img src="Images/logo-express-assess_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
 
        </center>

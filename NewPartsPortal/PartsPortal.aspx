@@ -307,7 +307,7 @@ img{
 
             <div class="card">
                 <img src="PartsPortalImage/gatesBeltsNhoses.PNG" alt="Gates">
-                <h1>GATES</h1>
+                <h1>GATES LOGIN</h1>
                 <p><a href="https://www.gatespowerpro.com/Comergent/en/US/direct/gates" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
@@ -369,6 +369,12 @@ img{
                 <img src="PartsPortalImage/radiators Cac.PNG" alt="Radiators CAC">
                 <h1>RADIATORS CAC</h1>
                 <p><a href="http://heatexhd.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
+
+            <div class="card">
+                <img src="PartsPortalImage/gates.PNG" alt="Gates">
+                <h1>GATES PARTS</h1>
+                <p><a href="https://www.gates.com/us/en/resources/resource-library/tech-tips?location_id=547" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
 
