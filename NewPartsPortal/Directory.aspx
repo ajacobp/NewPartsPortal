@@ -27,10 +27,10 @@
     <br />
     <br />
     <br />
-                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+<%--                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
                             { %>
 
-
+--%>
        
 
 
@@ -191,7 +191,7 @@
             </footer>
       </div>
 
-           <%}
+<%--           <%}
                         else
                         {%>
     <center>
@@ -199,5 +199,5 @@
         </center>
                         <%}
                         %>
-
+--%>
 </asp:Content>

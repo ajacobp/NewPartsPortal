@@ -13,7 +13,7 @@ using System.Text;
 public partial class Directory : Page
 {
 
-    SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+    SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Parts"].ConnectionString);
     SqlCommand cmd;
     SqlDataReader dr;
 

@@ -21,9 +21,9 @@
         <br />
         <br />
         <br />
-                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
+<%--                <% if (HttpContext.Current.User.Identity.IsAuthenticated)
                             { %>
-
+--%>
 
        
 
@@ -192,13 +192,13 @@
                 </p>
 
             </footer>      </div>
-               <%}
+<%--               <%}
                         else
                         {%>
     <center>
     <h1 style="font-weight:800;">You Must Log in to access this site</h1>
         </center>
                         <%}
-                        %>
+                        %>--%>
 
 </asp:Content>

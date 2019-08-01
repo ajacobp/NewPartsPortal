@@ -170,6 +170,31 @@
             img1:hover {
                 box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
             }
+
+    .EmailHover:hover{
+        opacity: 0.5;
+    }
+    .ShakeImg:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s; 
+
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite; 
+        }
+
+        @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
     </style>
 
     <!-- The video -->
@@ -359,16 +384,24 @@
         <br/>
 
         <br/>
-      <div>
+      <div class="ShakeImg">
+          <asp:HyperLink ID="PriceNews" runat="server" NavigateUrl="PriceNews.aspx" Target="_blank"><img src="Images/priceShopper.png" style="width:175px;height:110px;"/></asp:HyperLink>
+
+      </div>
+<br/>
+
+
+        <br/>
+      <div class="EmailHover">
           <asp:HyperLink ID="email" runat="server" NavigateUrl="https://outlook.office.com/mail/inbox" Target="_blank"><img src="Images/outlookLogo.png" style="width:150px;height:120px;"/></asp:HyperLink>
       </div>
 <br/>
 
-      <div>
+      <div class="EmailHover">
           <asp:HyperLink ID="Elite" runat="server" NavigateUrl="https://freightliner.com/service/elite-support/" Target="_blank"><img src="Images/logo-elite-support_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
 <br/>
-       <div>
+       <div class="EmailHover">
             <asp:HyperLink ID="Express" runat="server" NavigateUrl="https://freightliner.com/service/express-assessment/" Target="_blank"><img src="Images/logo-express-assess_1.png" style="width:200px;height:150px"/></asp:HyperLink>
       </div>
 
