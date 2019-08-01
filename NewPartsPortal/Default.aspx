@@ -276,17 +276,27 @@
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/julyNews1.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/augNews1.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/julyNews2.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/augNews2.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/julyNews3.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/augNews3.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/julyNews4.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/augNews4.png" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
+                <div class="item">
+                    <img src="Images/augNews5.png" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/augNews6.png" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+                <div class="item">
+                    <img src="Images/augNews7.png" style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+
             </div>
         </div>
 
@@ -319,27 +329,47 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/julyNews1.png" alt="...">
+      <img src="Images/augNews1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/julyNews2.png" alt="...">
+      <img src="Images/augNews2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/julyNews3.png" alt="...">
+      <img src="Images/augNews3.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/julyNews4.png" alt="...">
+      <img src="Images/augNews4.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+          <div class="item">
+      <img src="Images/augNews5.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="Images/augNews6.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+      <div class="item">
+      <img src="Images/augNews7.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
