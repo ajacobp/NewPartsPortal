@@ -56,12 +56,12 @@
      <center>
             <asp:GridView ID="searchGridPrice" runat="server" class="table table-hover table-responsive" AutoGenerateColumns="False" Visible="False">
                     <Columns>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
+<%--                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
                     <ControlStyle ForeColor="Red" />
-                    </asp:HyperLinkField>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
+                    </asp:HyperLinkField>--%>
+<%--                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
                     <ControlStyle ForeColor="Green" />
-                    </asp:HyperLinkField>
+                    </asp:HyperLinkField>--%>
 
                     <asp:BoundField DataField="Poster" HeaderText="Posted By" ItemStyle-Width="60px"/>
                     <asp:BoundField DataField="Shopper" HeaderText="Shopper" ItemStyle-Width="100px"/>
@@ -161,12 +161,12 @@
          <center>
             <asp:GridView ID="newsGrid" runat="server" class="table table-hover table-responsive" AutoGenerateColumns="False" Visible="true">
                     <Columns>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
+<%--                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=1" HeaderText="Delete" Text="Delete">
                     <ControlStyle ForeColor="Red" />
-                    </asp:HyperLinkField>
-                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
+                    </asp:HyperLinkField>--%>
+<%--                    <asp:HyperLinkField DataNavigateUrlFields="Id" ItemStyle-Width="20px" DataNavigateUrlFormatString="PriceNews.aspx?id={0}&amp;action=2" HeaderText="Edit" Text="Edit">
                     <ControlStyle ForeColor="Green" />
-                    </asp:HyperLinkField>
+                    </asp:HyperLinkField>--%>
 
                     <asp:BoundField DataField="Poster" HeaderText="Posted By" ItemStyle-Width="60px"/>
                     <asp:BoundField DataField="Shopper" HeaderText="Shopper" ItemStyle-Width="100px"/>
