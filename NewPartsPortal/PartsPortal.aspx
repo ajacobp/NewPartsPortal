@@ -198,11 +198,6 @@ img{
                 <p><a href="http://phillipsind.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
-            <div class="card">
-                <img src="PartsPortalImage/valleyParts.PNG" alt="Denim Jeans">
-                <h1>Tailored Jeans</h1>
-                <p><a href="default.aspx" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
 
             </div>
 <br />
@@ -402,11 +397,6 @@ img{
                 <p><a href="https://dtnacontent-dtna.prd.freightliner.com/content/public/dtnaconnect---daimler-trucks-north-america.html" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
-            <div class="card">
-                <img src="PartsPortalImage/valleyParts.PNG" alt="Denim Jeans">
-                <h1>Tailored Jeans</h1>
-                <p><a href="default.aspx" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
 
             <div class="card">
                 <img src="PartsPortalImage/rimPro Daimler.PNG" alt="Rim Pro">

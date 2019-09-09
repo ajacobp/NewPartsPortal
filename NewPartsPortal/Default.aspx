@@ -13,6 +13,9 @@
 
 
     <style>
+
+
+
         footer {
             background-color: #555;
             color: white;
@@ -117,7 +120,6 @@
                 height: 50%;
                 background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
             }
-
 
         .RightArrow {
             /*width: 200px;
@@ -273,32 +275,38 @@
         <br/>
         <br/>
 
-        <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
+       <asp:HyperLink runat="server" data-toggle="modal" data-target="#myModal"><img src="Images/SeptNews1.PNG" style="padding:0px;"/></asp:Hyperlink>
+      
+                    
+<%--          <div id="carousel" class="carousel slide carousel-fade" data-interval="999999999999" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/augNews1.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews1.png"  style="height:739px; width:584px; border-radius:10px;"/>
+                </div>
+              <div class="item">
+                    <img src="Images/SeptNews2.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augNews2.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews3.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augNews3.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews4.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augNews4.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews5.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augNews5.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews6.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augNews6.png" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptNews7.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
-                <div class="item">
-                    <img src="Images/augNews7.png" style="height:739px; width:584px; border-radius:10px;"/>
+               <div class="item">
+                    <img src="Images/SeptNews8.png" style="/*height:739px; width:584px;*/ border-radius:10px;"/>
                 </div>
 
             </div>
-        </div>
+        </div>--%>
 
    <div class="container">
   <!-- Trigger the modal with a button -->
@@ -313,7 +321,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">July Newsletter</h4>
+          <h4 class="modal-title">September Newsletter</h4>
         </div>
         <div class="modal-body">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -329,51 +337,59 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/augNews1.png" alt="...">
+      <img src="Images/SeptNews1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/augNews2.png" alt="...">
+      <img src="Images/SeptNews2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augNews3.png" alt="...">
+      <img src="Images/SeptNews3.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augNews4.png" alt="...">
+      <img src="Images/SeptNews4.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
           <div class="item">
-      <img src="Images/augNews5.png" alt="...">
+      <img src="Images/SeptNews5.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augNews6.png" alt="...">
+      <img src="Images/SeptNews6.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augNews7.png" alt="...">
+      <img src="Images/SeptNews7.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
+
+     <div class="item">
+      <img src="Images/SeptNews8.png" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
 
     ...
   </div>

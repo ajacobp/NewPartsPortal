@@ -73,20 +73,20 @@
     <br />
     <br />
     <center>
-        <h1 style="font-weight:bolder">August Parts Newsletter</h1>
+        <h1 style="font-weight:bolder">September Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/augParts1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptParts1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augParts3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptParts2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augParts4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptParts3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/augParts2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptParts4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
@@ -122,27 +122,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/augParts1.png" alt="...">
+      <img src="Images/SeptParts1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/augParts3.png" alt="...">
+      <img src="Images/SeptParts2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augParts4.png" alt="...">
+      <img src="Images/SeptParts3.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/augParts2.png" alt="...">
+      <img src="Images/SeptParts4.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
@@ -182,21 +182,21 @@
 <br />
 
 
-        <h1 style="font-weight:bolder">May Parts Newsletter Extra Info</h1>
+        <h1 style="font-weight:bolder">September Parts Newsletter Insert</h1>
         <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/insert1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptIns1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/insert2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/SeptIns2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
-                <div class="item">
+<%--                <div class="item">
                     <img src="Images/insert3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
                     <img src="Images/insert4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
-                </div>
+                </div>--%>
             </div>
         </div>
 <br />
@@ -224,26 +224,26 @@
     <li data-target="#carousel-insert" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-insert" data-slide-to="1"></li>
     <li data-target="#carousel-insert" data-slide-to="2"></li>
-    <li data-target="#carousel-insert" data-slide-to="3"></li>
+<%--    <li data-target="#carousel-insert" data-slide-to="3"></li>--%>
 
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/insert1.png" alt="...">
+      <img src="Images/SeptIns1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/insert2.png" alt="...">
+      <img src="Images/SeptIns2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
-      <div class="item">
+<%--      <div class="item">
       <img src="Images/insert3.png" alt="...">
       <div class="carousel-caption">
         ...
@@ -255,7 +255,7 @@
       <div class="carousel-caption">
         ...
       </div>
-    </div>
+    </div>--%>
 
     ...
   </div>

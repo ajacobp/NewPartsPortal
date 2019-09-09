@@ -1021,7 +1021,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   padding:0in 0in 0in 0in'>
   <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
   normal'><span style='font-size:14.0pt;font-family:"Candara",sans-serif'><a
-  href="helpdesk.aspx" title="Systems Dept Remote Support">Support</a></span></b></p>
+  href="http://get.teamviewer.com/3s22t5k" title="Systems Dept Remote Support">Support</a></span></b></p>
   </td>
   <td width=207 colspan=3 valign=top style='width:155.15pt;border:none;
   border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
