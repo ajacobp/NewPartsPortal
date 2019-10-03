@@ -209,6 +209,11 @@ img{
             <hr />
         <div class="grid-container">
             <div class="card">
+                <img src="PartsPortalImage/mascotScreen.PNG" alt="Mascot">
+                <h1>MASCOT</h1>
+                <p><a href="https://msatweb.mtpi.com/Account/Login.aspx" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
+            <div class="card">
                 <img src="PartsPortalImage/spicerDanaDriveline.PNG" alt="Spicer Eaton">
                 <h1>SPICER EATON</h1>
                 <p><a href="https://media.spicerparts.com/media" target="_blank" class="btn btn-primary">Visit Site</a></p>
@@ -219,36 +224,12 @@ img{
                 <p><a href="http://www.ddcsn.com/cps/rde/xchg/ddcsn" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
-
             </div>
 
 <br />
          <a id="_Electrical"><img src="Images/ELECTRICAL.png" style="width:100%"  /></a>
             <hr />
             <div class="grid-container">
-            <div class="card">
-                <img src="PartsPortalImage/donaldsonFilter.PNG" alt="Donaldson">
-                <h1>DONALDSON</h1>
-                <p><a href="https://shop.donaldson.com/store/en-us/home?_requestid=11985896" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
-
-            <div class="card">
-                <img src="PartsPortalImage/baldwinFilter.PNG" alt="Baldwin">
-                <h1>BALDWIN</h1>
-                <p><a href="http://www.baldwinfilter.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
-
-            <div class="card">
-                <img src="PartsPortalImage/cummingsFiltration.PNG" alt="Fleetguard">
-                <h1>FLEETGUARD</h1>
-                <p><a href="https://catalog.cumminsfiltration.com/catalog/CatalogSearch.do?_locale=en&_region" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
-
-            <div class="card">
-                <img src="PartsPortalImage/luberFiner.PNG" alt="Luberfiner">
-                <h1>LUBERFINER</h1>
-                <p><a href="http://productguide.luber-finer.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
-            </div>
 
             <div class="card">
                 <img src="PartsPortalImage/grote.PNG" alt="Grote">
@@ -371,7 +352,29 @@ img{
                 <h1>GATES PARTS</h1>
                 <p><a href="https://www.gates.com/us/en/resources/resource-library/tech-tips?location_id=547" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
+            <div class="card">
+                <img src="PartsPortalImage/donaldsonFilter.PNG" alt="Donaldson">
+                <h1>DONALDSON</h1>
+                <p><a href="https://shop.donaldson.com/store/en-us/home?_requestid=11985896" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
 
+            <div class="card">
+                <img src="PartsPortalImage/baldwinFilter.PNG" alt="Baldwin">
+                <h1>BALDWIN</h1>
+                <p><a href="http://www.baldwinfilter.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
+
+            <div class="card">
+                <img src="PartsPortalImage/cummingsFiltration.PNG" alt="Fleetguard">
+                <h1>FLEETGUARD</h1>
+                <p><a href="https://catalog.cumminsfiltration.com/catalog/CatalogSearch.do?_locale=en&_region" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
+
+            <div class="card">
+                <img src="PartsPortalImage/luberFiner.PNG" alt="Luberfiner">
+                <h1>LUBERFINER</h1>
+                <p><a href="http://productguide.luber-finer.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
+            </div>
 
             </div>
 
@@ -379,11 +382,12 @@ img{
          <a id="_Proprietary"><img src="Images/PROPRI.png" style="width:100%"  /></a>
             <hr />
           <div class="grid-container">
-            <div class="card">
-                <img src="PartsPortalImage/allisonTransmission.PNG" alt="Allison">
-                <h1>ALLISON</h1>
-                <p><a href="https://hub.allisontransmission.com/login?URLToLoad=https%3A%2F%2Fsap.allisontransmission.com%2Fextranet%2Fsitemap.jsp" target="_blank" class="btn btn-primary">Visit Site</a></p>
+             <div class="card">
+                <img src="PartsPortalImage/volvoLogin.PNG" alt="Volvo">
+                <h1>VOLVO</h1>
+                <p><a href="http://vtnalogin.volvo.com/" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
+
 
             <div class="card">
                 <img src="PartsPortalImage/autoCar.PNG" alt="Auto Car">
