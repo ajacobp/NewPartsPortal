@@ -59,7 +59,7 @@
 
 
     <center>
-         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:200px; width:540px"/></asp:HyperLink>
+         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/TomNehl_H.png" style="height:200px; width:540px"/></asp:HyperLink>
              <asp:HyperLink ID="home2" runat="server" NavigateUrl="default.aspx"><img src="Images/NFWS%20-%20Full%20Color.png" style="height:200px; width:540px"/></asp:HyperLink>
 
     </center>
@@ -73,20 +73,20 @@
     <br />
     <br />
     <center>
-        <h1 style="font-weight:bolder">September Parts Newsletter</h1>
+        <h1 style="font-weight:bolder">November Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/SeptParts1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/PartsNov1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/SeptParts2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/PartsNov2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/SeptParts3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/PartsNov3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/SeptParts4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/PartsNov4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
@@ -122,27 +122,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/SeptParts1.png" alt="...">
+      <img src="Images/PartsNov1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/SeptParts2.png" alt="...">
+      <img src="Images/PartsNov2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/SeptParts3.png" alt="...">
+      <img src="Images/PartsNov3.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/SeptParts4.png" alt="...">
+      <img src="Images/PartsNov4.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
@@ -182,105 +182,7 @@
 <br />
 
 
-        <h1 style="font-weight:bolder">September Parts Newsletter Insert</h1>
-        <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="Images/SeptIns1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
-                </div>
-                <div class="item">
-                    <img src="Images/SeptIns2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
-                </div>
-<%--                <div class="item">
-                    <img src="Images/insert3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
-                </div>
-                <div class="item">
-                    <img src="Images/insert4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
-                </div>--%>
-            </div>
-        </div>
-<br />
-<hr />
-
-   <div class="container">
-  <!-- Trigger the modal with a button -->
-                        <br />
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Parts Insert</button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Parts Insert</h4>
-        </div>
-        <div class="modal-body">
-          <div id="carousel-insert" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-insert" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-insert" data-slide-to="1"></li>
-    <li data-target="#carousel-insert" data-slide-to="2"></li>
-<%--    <li data-target="#carousel-insert" data-slide-to="3"></li>--%>
-
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="Images/SeptIns1.png" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
-    </div>
-    <div class="item">
-      <img src="Images/SeptIns2.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-<%--      <div class="item">
-      <img src="Images/insert3.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-
-      <div class="item">
-      <img src="Images/insert4.png" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>--%>
-
-    ...
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-insert" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-insert" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
-</div>
-
+ 
 
 </center>
 

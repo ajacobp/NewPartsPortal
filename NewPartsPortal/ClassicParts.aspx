@@ -105,7 +105,7 @@
 
 
     <center>
-         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:200px; width:540px"/></asp:HyperLink>
+         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/TomNehl_H.png" style="height:200px; width:540px"/></asp:HyperLink>
              <asp:HyperLink ID="home2" runat="server" NavigateUrl="default.aspx"><img src="Images/NFWS%20-%20Full%20Color.png" style="height:200px; width:540px"/></asp:HyperLink>
 
     </center>
@@ -1332,7 +1332,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   inset #CCCCCC .75pt;background:#CCCCCC;padding:.75pt .75pt .75pt .75pt;
   height:.05pt'>
   <p class=MsoNormal align=center style='text-align:center'><a
-  href="http://www.inforanger.roadranger.com/index.aspx"><b style='mso-bidi-font-weight:
+  href="http://www.roadranger.com/rr/index.htm"><b style='mso-bidi-font-weight:
   normal'><span style='font-size:16.0pt;font-family:"Candara",sans-serif;
   color:black'>Eaton Road Ranger</span></b></a><b style='mso-bidi-font-weight:
   normal'><span style='font-size:16.0pt;font-family:"Candara",sans-serif'><o:p></o:p></span></b></p>
@@ -1531,7 +1531,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   inset #CCCCCC .75pt;background:white;padding:.75pt .75pt .75pt .75pt;
   height:.05pt'>
   <p class=MsoNormal align=center style='text-align:center'><a
-  href="http://cms.isuzu.com:1080/idp/isuzu/DealerHome.aspx"><b
+  href="https://goisuzu.net/"><b
   style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
   "Candara",sans-serif;color:red'>Isuzu</span></b></a></p>
   <p class=MsoNormal align=center style='text-align:center'><b
@@ -1650,7 +1650,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   mso-border-alt:inset #CCCCCC .75pt;background:white;padding:.75pt .75pt .75pt .75pt;
   height:.05pt'>
   <p class=MsoNormal align=center style='text-align:center'><a
-  href="https://dtna.syncron.com/rim/views/welcome/welcome.xhtml"><span
+  href="https://dtna-retail.syncroncloud.com/views/welcome/welcome.xhtml"><span
   class=SpellE><b style='mso-bidi-font-weight:normal'><span style='font-size:
   16.0pt;font-family:"Candara",sans-serif;color:red'>RIMPro</span></b></span></a><b
   style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:

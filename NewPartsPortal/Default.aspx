@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+
+
+
 <style>
 
 
@@ -68,7 +71,7 @@ span.b {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);
   transition: 0.3s;
-  background-color:#31323d;
+  background-color:#75787b;
   border-radius: 10px;
 }
 
@@ -98,20 +101,95 @@ span.b {
   width: 100%;
   padding: 10px;
 }
+
+
+
+.sidenav {
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 50px;
+  background: #fff;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 </style>
+<!-- SideBar-->
 
-
+    <div class="sidenav">
+            <div class="w3-display-container w3-animate-opacity">
+            <img src="/Images/LCAward.jpg" alt="main" style="width:100%;min-height:350px;max-height:600px;">
+            <div class="w3-container w3-display-bottomright w3-margin-bottom"></div>
+            </div>
+        </div>
 
 <!-- Links (sit on top) -->
+
 <div class="w3-display-container w3-animate-opacity">
-  <img src="/Images/mainBanner.jpg" alt="main" style="width:100%;min-height:350px;max-height:600px;">
-  <div class="w3-container w3-display-topright w3-margin-bottom">                       
+  <img src="/Images/tnMainBanner.png" alt="main" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
      <a href="https://outlook.office.com/?path=/mail/action/compose&to=aaronpfaff@tomnehl.com&subject=Feedback+to+improve+the+parts+portal!" target="_blank" type="button" class="btn btn-primary" style="font-size:x-large">Click here to help make this portal better!</a>
   </div>
 </div>
+    <br />
+    <br />
+
+    <div class="w3-display-container w3-animate-opacity">
+  <img src="/Images/hustle.png" alt="main" style="width:100%;min-height:100px;max-height:150px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
+     <a href="Images/hustlepdf.pdf" target="_blank" type="button" class="btn btn-danger" style="font-size:x-large">Learn More</a>
+  </div>
+</div>
+    <br />
+    <br />
+
+    <div class="w3-display-container w3-animate-opacity">
+  <img src="/Images/Inv13.png" alt="main" style="width:100%;min-height:350px;max-height:600px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
+  </div>
+</div>
+    <br />
+    <br />
 
 
+<div class="w3-display-container w3-animate-opacity">
+  <img src="/Images/inv11.png" alt="main" style="width:100%;min-height:150px;max-height:250px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
+  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
+     <a href= "Images/2019 RUReady Parts Annual Physical Inventory.pdf" target="_blank" type="button" class="btn btn-default" style="font-size:x-large" download >Are You Ready!?</a>
+     <a href="Images/Parts%20101%20TRUST%20but%20VERIFY.pdf"  target="_blank" type="button" class="btn btn-default" style="font-size:x-large" download >TRUST but VERIFY</a>
+
+  </div>
+</div>
    <br />
+    <br />
+
+
+
+       <br />
     <br />
  <div class="row">
      <div class="column">
@@ -184,6 +262,9 @@ span.b {
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
 
       </div>
     </div>
@@ -191,50 +272,70 @@ span.b {
   <!-- Slideshow -->
   <div class="w3-container center">
     <div class="w3-display-container mySlides">
-      <img src="Images/octNews.png" style="width:100%">
+      <img src="Images/NovNews1.png" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/octNews2.png" style="width:100%">
+      <img src="Images/NovNews2.png" style="width:100%">
       <div class="w3-display-middle w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/octNews3.png" style="width:100%">
+      <img src="Images/NovNews3.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
   <div class="w3-padding w3-display-bottomright">                      
-     <a href="https://mailchi.mp/a80437d7e422/picnicrsvp" target="_blank" type="button" class="btn btn-danger" style="font-size:x-large">RSVP TODAY!</a>
+<%--     <a href="https://mailchi.mp/a80437d7e422/picnicrsvp" target="_blank" type="button" class="btn btn-danger" style="font-size:x-large">RSVP TODAY!</a>--%>
   </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/octNews4.png" style="width:100%">
+      <img src="Images/NovNews4.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
           <div class="w3-display-container center mySlides">
-      <img src="Images/octNews5.png" style="width:100%">
+      <img src="Images/NovNews5.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/octNews6.png" style="width:100%">
+      <img src="Images/NovNews6.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/octNews7.png" style="width:100%">
+      <img src="Images/NovNews7.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
+      </div>
+     </div>
+      <div class="w3-display-container center mySlides">
+      <img src="Images/NovNews8.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
+    <div class="w3-display-container center mySlides">
+      <img src="Images/NovNews9.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
+      </div>
+    </div>
+    <div class="w3-display-container center mySlides">
+      <img src="Images/NovNews10.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+<%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
+      </div>
+    </div>
+
+    
 
 
       </center>
@@ -252,6 +353,9 @@ span.b {
         <span class="w3-tag demodots2 w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
         <span class="w3-tag demodots2 w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
         <span class="w3-tag demodots2 w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
 
       </div>
     </div>

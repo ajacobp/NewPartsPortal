@@ -12,7 +12,7 @@
   overflow: hidden;
   background-color: #333;
   text-decoration: none;
-  background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+  background: linear-gradient(rgba(0,87,184,0.8), rgba(0,0,0,0.9));
   position: fixed;
   top: 0;
   width: 100%;
@@ -31,7 +31,7 @@
 }
 
 .active1 {
-  background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+  background: linear-gradient(rgba(0,87,184,0.8), rgba(0,0,0,0.9));
   color: white;
 }
 
@@ -172,7 +172,7 @@
                                  <a  href="https://dtnaconnect.com" target="_blank">Daimler (DTNA Connect)</a>
                                  <a  href="https://dealer.trucks.volvo.com/login/?id=8&lang=en-US&market=US&#login" target="_blank">Volvo (Dealer Portal)</a>
                                  <a  href="https://www.pinnacletruckparts.com/sap(bD1lbiZjPTAxMA==)/bc/bsp/sap/ysimp_e_parts/main.do" target="_blank">Pinnacle Truck Parts (Diamler)</a>
-                                 <a  href="https://www.nexpart.com/login.php?" target="_blank">Select Truck Parts (Volvo)</a>
+                                 <a  href="https://www.selectpartstore.com/Generic/login.php" target="_blank">Select Truck Parts (Volvo)</a>
                        </div>
                 </div>
 
@@ -181,12 +181,13 @@
                <i class="fa fa-caret-down"></i>
                </button>
                        <div class="dropdown-content">
-                                <a href="https://outlook.office.com/mail/inbox" target="_blank">Email</a>
                                 <a href="PartsPortal.aspx">Category Parts Portal</a>
+                                <a href="Directory.aspx">Directory</a>
+                                <a href="https://outlook.office.com/mail/inbox" target="_blank">Email</a>
                                 <a href="http://tntcloud.net/" target="_blank">Dispatch</a>
                                 <a href="HelpDesk.aspx">Helion</a>
                                 <a href="http://10.23.2.205:88/" target="_blank">Parts Library</a>
-                                <a href="http://10.23.2.205/PartsLib/PhoneExtensions.pdf" target="_blank">Phone Extensions</a>
+                                <a href="Phonepdf/TNPhonePDF11-19.pdf" target="_blank">Phone Extensions</a>
          </div>
   </div> 
 

@@ -20,7 +20,7 @@
 
        .button {
          background-color: rgb(17,8,167);
-         background: linear-gradient(rgba(0,0,170,0.8), rgba(0,0,0,0.9));
+         background: linear-gradient(rgba(0,87,184,0.8), rgba(0,0,0,0.9));
          border: none;
          color: white;
          padding: 20px 20px;
@@ -104,7 +104,7 @@ img{
 
 
     <center>
-         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/tomNehlTPARTSPORTALLogo.png" style="height:200px; width:540px"/></asp:HyperLink>
+         <asp:HyperLink ID="home" runat="server" NavigateUrl="default.aspx"><img src="Images/TomNehl_H.png" style="height:200px; width:540px"/></asp:HyperLink>
              <asp:HyperLink ID="home2" runat="server" NavigateUrl="default.aspx"><img src="Images/NFWS%20-%20Full%20Color.png" style="height:200px; width:540px"/></asp:HyperLink>
 
     </center>
@@ -405,7 +405,7 @@ img{
             <div class="card">
                 <img src="PartsPortalImage/rimPro Daimler.PNG" alt="Rim Pro">
                 <h1>RIM PRO</h1>
-                <p><a href="https://dtnacontent-dtna.prd.freightliner.com/content/public/dtnaconnect---daimler-trucks-north-america.html" target="_blank" class="btn btn-primary">Visit Site</a></p>
+                <p><a href="https://dtna-retail.syncroncloud.com/views/welcome/welcome.xhtml" target="_blank" class="btn btn-primary">Visit Site</a></p>
             </div>
 
             <div class="card">
