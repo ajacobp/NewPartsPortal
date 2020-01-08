@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.IO;
 using System.Text;
+using System.Net.Mail;
 
 
 public partial class PriceNews : Page
@@ -19,6 +20,7 @@ public partial class PriceNews : Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        txtDate.Text = DateTime.Now.ToString("MM/dd/yyyy");
         if (!IsPostBack)
         {
             newsTable.Visible = false; // to hide
@@ -114,7 +116,47 @@ public partial class PriceNews : Page
 
         protected void btnNewsAdd_Click(object sender, EventArgs e)
         {
-            con.Open();
+        string p = txtPoster.Text;
+        string shop = txtShopper.Text;
+        string part = txtPN.Text;
+        string det = txtDetails.Text;
+        string pric = txtPrice.Text;
+        string dat = txtDate.Text;
+
+        string emailBody = "Check it out we have a Price Shopper! <a href=http://10.23.4.56/PriceNews> Click Here to Check It Out!</a><br> <br>" + "Posted By:   " + p + "<br>Shopper:   " + shop + "<br>Part Number:   " + part + "<br>Details:   " + det + "<br>Price Quoted:   " + pric + "<br>Date Posted:   " + dat;
+        String userName = "aaronpfaff@tomnehl.com";
+        String password = "Ajp9424271";
+
+        MailMessage msg = new MailMessage();
+        msg.To.Add(new MailAddress("aaronpfaff@tomnehl.com"));
+        msg.Bcc.Add(new MailAddress("partsbr1@tomnehl.com"));
+        msg.Bcc.Add(new MailAddress("partsbr2@tomnehl.com"));
+        msg.Bcc.Add(new MailAddress("partsbr3@tomnehl.com"));
+        msg.Bcc.Add(new MailAddress("partsbr4@tomnehl.com"));
+        msg.From = new MailAddress(userName);
+        msg.Subject = "Price Shopper Alert!";
+        msg.Body = emailBody;
+        msg.IsBodyHtml = true;
+        SmtpClient client = new SmtpClient();
+        client.UseDefaultCredentials = false;
+        client.Credentials = new System.Net.NetworkCredential(userName, password);
+        client.Port = 25;
+        client.Host = "smtp.office365.com";
+        client.DeliveryMethod = SmtpDeliveryMethod.Network;
+        client.EnableSsl = true;
+
+        try
+        {
+            client.Send(msg);
+            ClientScript.RegisterStartupScript(this.GetType(), "Email Sent", "<script>alert('Email Sent');</script>");
+
+        }
+        catch (Exception ex)
+        {
+            ClientScript.RegisterStartupScript(this.GetType(), "Email Failed to Send", "<script>alert('Email Failed to Send');</script>");
+        }
+
+        con.Open();
             cmd = new SqlCommand("insert into News_Book values(@Poster,@Shopper,@PN,@Details,@Price,@Date)", con);
             cmd.Parameters.Add("@Poster", txtPoster.Text);
             cmd.Parameters.Add("@Shopper", txtShopper.Text);
@@ -127,7 +169,7 @@ public partial class PriceNews : Page
             int count = cmd.ExecuteNonQuery();
             if (count == 1)
             {
-                ClientScript.RegisterStartupScript(this.GetType(), "added", "<script>alert('News Added..'); location = 'location='PriceNews.aspx?ac=id';</script>");
+            ClientScript.RegisterStartupScript(this.GetType(), "added", "<script>alert('News Added..'); location = 'location='PriceNews.aspx?ac=id';</script>");
             txtPoster.Text = "";
             txtShopper.Text = "";
             txtPN.Text = "";
@@ -140,7 +182,8 @@ public partial class PriceNews : Page
                 ClientScript.RegisterStartupScript(this.GetType(), "failed", "<script>alert('Failed attempt, please try again..');</script>");
 
             }
-            con.Close();
+
+        con.Close();
 
         newsTable.Visible = false;
         btnCancelNews.Visible = true;

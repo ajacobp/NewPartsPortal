@@ -1034,7 +1034,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
   padding:0in 0in 0in 0in'>
   <p class=MsoNormal align=right style='text-align:right'><a
-  href="http://10.23.2.205:88/" title="The Tom Nehl Parts Library"><b
+  href="PartsLibrary.aspx" target="_blank" title="The Tom Nehl Parts Library"><b
   style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:
   "Candara",sans-serif'>Parts Library</span></b></a><b style='mso-bidi-font-weight:
   normal'><span style='font-size:14.0pt;font-family:"Candara",sans-serif'><o:p></o:p></span></b></p>
@@ -1043,7 +1043,7 @@ style='font-size:16.0pt;font-family:"Candara",sans-serif;mso-fareast-font-family
   border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
   padding:0in 0in 0in 0in'>
   <p class=MsoNormal align=right style='text-align:right'><a
-  href="http://10.23.2.205/PartsLib/PhoneExtensions.pdf"
+  href="Phonepdf/TNPhonePDF11-19.pdf"
   title="All Phone Extensions"><b style='mso-bidi-font-weight:normal'><span
   style='font-size:14.0pt;font-family:"Candara",sans-serif'>Phone Extensions</span></b></a><b
   style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;font-family:

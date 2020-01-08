@@ -59,7 +59,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 }
 
 span.b {
-   display: inline-block;
+  display: inline-block;
   width:50%;
   height:50%;
   padding: 5px;
@@ -105,18 +105,18 @@ span.b {
 
 
 .sidenav {
-  width: 250px;
-  position: absolute;
-  z-index: 1;
-  top: 50px;
-  left: 50px;
+  width: 15%;
+  position:absolute;
+  z-index: auto;
+  top: 55px;
+  left: 17px;
   background: #fff;
   overflow-x: hidden;
   padding: 8px 0;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding:16px;
   text-decoration: none;
   font-size: 25px;
   color: #2196F3;
@@ -133,33 +133,49 @@ span.b {
   padding: 0px 10px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-width: 1700px) {
+  .sidenav {
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+  .sidenav a {float: left;   width: 25%;
+  height:25%;margin-left: 0;}
 }
 </style>
 <!-- SideBar-->
 
     <div class="sidenav">
+
+        <center><h2 style="font:600; color:#ffcd00">Quick News</h2></center>
+        
+        <a>
             <div class="w3-display-container w3-animate-opacity">
-            <img src="/Images/LCAward.jpg" alt="main" style="width:100%;min-height:350px;max-height:600px;">
-            <div class="w3-container w3-display-bottomright w3-margin-bottom"></div>
+                <img src="/Images/eliteCert.png" alt="main" style="width:100%;min-height:35%;max-height:60%; border-radius: 5px;">
             </div>
-        </div>
+        </a>
+   </div>
 
 <!-- Links (sit on top) -->
 
 <div class="w3-display-container w3-animate-opacity">
-  <img src="/Images/tnMainBanner.png" alt="main" style="width:100%;min-height:350px;max-height:600px;">
+  <img src="/Images/tnMainBanner.png" alt="main" style="width:100%;min-height:35%;max-height:60%;  padding-top: 13px;">
   <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
      <a href="https://outlook.office.com/?path=/mail/action/compose&to=aaronpfaff@tomnehl.com&subject=Feedback+to+improve+the+parts+portal!" target="_blank" type="button" class="btn btn-primary" style="font-size:x-large">Click here to help make this portal better!</a>
   </div>
-</div>
+<%--      <div class="w3-container w3-display-topleft w3-margin-bottom"> 
+          <img src="Images/happyNewYear.png" />
+        </div>
+          <div class="w3-container w3-display-topright w3-margin-bottom"> 
+          <img src="Images/happyNewYear.png" />
+        </div>
+--%>
+    </div>
     <br />
     <br />
 
     <div class="w3-display-container w3-animate-opacity">
-  <img src="/Images/hustle.png" alt="main" style="width:100%;min-height:100px;max-height:150px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
+  <img src="/Images/hustle.png" alt="main" style="width:100%;min-height:10%;max-height:15%; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
   <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
      <a href="Images/hustlepdf.pdf" target="_blank" type="button" class="btn btn-danger" style="font-size:x-large">Learn More</a>
   </div>
@@ -167,29 +183,7 @@ span.b {
     <br />
     <br />
 
-    <div class="w3-display-container w3-animate-opacity">
-  <img src="/Images/Inv13.png" alt="main" style="width:100%;min-height:350px;max-height:600px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
-  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
-  </div>
-</div>
     <br />
-    <br />
-
-
-<div class="w3-display-container w3-animate-opacity">
-  <img src="/Images/inv11.png" alt="main" style="width:100%;min-height:150px;max-height:250px; box-shadow: 0 12px 12px 0 rgba(0,0,0,0.6);">
-  <div class="w3-container w3-display-bottomright w3-margin-bottom">                       
-     <a href= "Images/2019 RUReady Parts Annual Physical Inventory.pdf" target="_blank" type="button" class="btn btn-default" style="font-size:x-large" download >Are You Ready!?</a>
-     <a href="Images/Parts%20101%20TRUST%20but%20VERIFY.pdf"  target="_blank" type="button" class="btn btn-default" style="font-size:x-large" download >TRUST but VERIFY</a>
-
-  </div>
-</div>
-   <br />
-    <br />
-
-
-
-       <br />
     <br />
  <div class="row">
      <div class="column">
@@ -272,68 +266,66 @@ span.b {
   <!-- Slideshow -->
   <div class="w3-container center">
     <div class="w3-display-container mySlides">
-      <img src="Images/NovNews1.png" style="width:100%">
+      <img src="Images/JanNews1.png" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom">October</span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews2.png" style="width:100%">
+      <img src="Images/JanNews2.png" style="width:100%">
       <div class="w3-display-middle w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews3.png" style="width:100%">
+      <img src="Images/JanNews3.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
-  <div class="w3-padding w3-display-bottomright">                      
-<%--     <a href="https://mailchi.mp/a80437d7e422/picnicrsvp" target="_blank" type="button" class="btn btn-danger" style="font-size:x-large">RSVP TODAY!</a>--%>
-  </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews4.png" style="width:100%">
+      <img src="Images/JanNews4.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
           <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews5.png" style="width:100%">
+      <img src="Images/JanNews5.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews6.png" style="width:100%">
+      <img src="Images/JanNews6.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews7.png" style="width:100%">
+      <img src="Images/JanNews7.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
      </div>
       <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews8.png" style="width:100%">
+      <img src="Images/JanNews8.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews9.png" style="width:100%">
+      <img src="Images/JanNews9.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
     <div class="w3-display-container center mySlides">
-      <img src="Images/NovNews10.png" style="width:100%">
+      <img src="Images/JanNews10.png" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
 <%--        <span class="w3-white w3-padding-large w3-animate-bottom"></span>--%>
       </div>
     </div>
+</div>
 
     
 
@@ -434,8 +426,8 @@ span.b {
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
   <h4>Tom Nehl Parts Portal</h4>
   <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a><br />
-     <a href="https://freightliner.com/service/elite-support/" class="EmailHover" Target="_blank"><img src="Images/logo-elite-support_1.png" style="width:75px;height:75px"/></a>
-       <a href="https://freightliner.com/service/express-assessment/" class="EmailHover" Target="_blank"><img src="Images/logo-express-assess_1.png" style="width:75px;height:75px"/></a>
+     <a href="https://freightliner.com/service/elite-support/" class="EmailHover" Target="_blank"><img src="Images/logo-elite-support_1.png" style="width:7.5%;height:7.5%"/></a>
+       <a href="https://freightliner.com/service/express-assessment/" class="EmailHover" Target="_blank"><img src="Images/logo-express-assess_1.png" style="width:7.5%;height:7.5%"/></a>
 
   <div class="w3-xlarge w3-section">
     <a href="https://www.facebook.com/TomNehlTruckCompany/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
@@ -478,7 +470,6 @@ span.b {
         dots[slideIndex - 1].className += " w3-white";
 
     }
-
 
 </script>
 

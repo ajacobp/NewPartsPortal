@@ -73,20 +73,20 @@
     <br />
     <br />
     <center>
-        <h1 style="font-weight:bolder">November Parts Newsletter</h1>
+        <h1 style="font-weight:bolder">January Parts Newsletter</h1>
             <div id="carousel" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="Images/PartsNov1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/JanParts1.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/PartsNov2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/JanParts2.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/PartsNov3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/JanParts3.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
                 <div class="item">
-                    <img src="Images/PartsNov4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
+                    <img src="Images/JanParts4.PNG" style="height:739px; width:584px; border-radius:10px;"/>
                 </div>
             </div>
         </div>
@@ -122,27 +122,27 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="Images/PartsNov1.png" alt="...">
+      <img src="Images/JanParts1.png" alt="...">
       <div class="carousel-caption">
         
       </div>
     </div>
     <div class="item">
-      <img src="Images/PartsNov2.png" alt="...">
+      <img src="Images/JanParts2.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/PartsNov3.png" alt="...">
+      <img src="Images/JanParts3.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
 
       <div class="item">
-      <img src="Images/PartsNov4.png" alt="...">
+      <img src="Images/JanParts4.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
